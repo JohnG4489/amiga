@@ -1,0 +1,5 @@
+delete #?.o
+delete #?.lnk
+delete #?.tmp
+delete TwinVNC
+delete smakefile.info

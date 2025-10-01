@@ -1,0 +1,3 @@
+delete TwinVNC
+gcc -Wall -O2 -noixemul -oTwinVNC display.c system.c server.c gui.c gfxscale.c toolbar.c input.c gfxnormal.c gfxsmooth.c config.c general.c windowconnection.c windowstatus.c windowoptions.c windowinformation.c windowfiletransfer.c framebuffer.c decoding.c decoderzrle.c decoderzlibraw.c decodertight.c decoderrre.c decoderraw.c decoderhextile.c decodercursor.c decodercorre.c decodercopyrect.c d3des.c connect.c client.c auth.c main.c socket.c gfxoverlay.c twingadgetclass.c  -Izlib -Ijpeg -Ljpeg -Lzlib -ljpeg -lzlib
+strip --strip-all -R .comment TwinVNC

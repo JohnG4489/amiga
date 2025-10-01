@@ -1,0 +1,478 @@
+; This Catalog Descriptor file (".cd")
+; Has been written using
+; ReCatIt Pro V1.00 (07.11.98) - By Fabio Rotondo.
+;
+LOC_CONNECTION_TITLE (//)
+Connexion
+;
+LOC_CONNECTION_HOST (//)
+Hôte
+;
+LOC_CONNECTION_PASSWORD (//)
+Mot de passe
+;
+LOC_CONNECTION_VIEWONLY (//)
+_Visualiser
+;
+LOC_CONNECTION_CONNECT (//)
+Connecter
+;
+LOC_CONNECTION_OPTIONS (//)
+_Options
+;
+LOC_CONNECTION_QUIT (//)
+Quitter
+;
+LOC_TOOLBAR_OPTIONS (//)
+Options
+;
+LOC_TOOLBAR_INFO (//)
+Informations
+;
+LOC_TOOLBAR_FULLSCREEN (//)
+Basculer en plein écran ou en fenêtre
+;
+LOC_TOOLBAR_REFRESH (//)
+Rafraîchir l'affichage
+;
+LOC_TOOLBAR_TRANSFER (//)
+Transfert de fichiers
+;
+LOC_TOOLBAR_RECONNECT (//)
+Reconnecter
+;
+LOC_TOOLBAR_ICONIFY (//)
+Iconifier
+;
+LOC_TOOLBAR_QUIT (//)
+Quitter TwinVNC
+;
+LOC_TOOLBAR_ABOUT (//)
+À propos de TwinVNC...
+;
+LOC_STATUS_TITLE (//)
+Statut de connexion...
+;
+LOC_STATUS_CANCEL (//)
+Annuler
+;
+LOC_STATUS_TEXT_CONNECTION (//)
+Connexion sur l'hôte:
+;
+LOC_STATUS_TEXT_NEGOTIATION (//)
+Négociation du protocole
+;
+LOC_STATUS_TEXT_AUTHENTIFICATION (//)
+Authentification/Mot de passe
+;
+LOC_STATUS_TEXT_CLIENT_INIT (//)
+Initialisation du client
+;
+LOC_STATUS_TEXT_WAIT_SERVER_INIT (//)
+Attente de l'initialisation du serveur
+;
+LOC_STATUS_TEXT_SEND_DISPLAY_PARAM (//)
+Envoi des paramètres d'affichage
+;
+LOC_OPTIONS_TITLE (//)
+Options
+;
+LOC_OPTIONS_CODECS (//)
+Codecs
+;
+LOC_OPTIONS_MISC (//)
+Divers
+;
+LOC_OPTIONS_DISPLAY (//)
+Affichage
+;
+LOC_OPTIONS_CUSTOMIZE (//)
+Personnaliser
+;
+LOC_OPTIONS_ABOUT (//)
+À propos de...
+;
+LOC_OPTIONS_SAVEAS (//)
+Enregistrer sous
+;
+LOC_OPTIONS_USE (//)
+Utiliser
+;
+LOC_OPTIONS_CANCEL (//)
+Annuler
+;
+LOC_OPTIONS_P1_REMOTEDISPLAY (//)
+Affichage distant
+;
+LOC_OPTIONS_P1_COLORS (//)
+Couleurs
+;
+LOC_OPTIONS_P1_SCALE (//)
+Échelle
+;
+LOC_OPTIONS_P1_ENCODERS (//)
+Encodeurs
+;
+LOC_OPTIONS_P1_ISCOPYRECT (//)
+Utiliser CopyRect
+;
+LOC_OPTIONS_P1_ISLOCALCURSOR (//)
+Gestion locale du curseur souris
+;
+LOC_OPTIONS_P1_ENCODERSPARAMETERS (//)
+Paramètres des encodeurs
+;
+LOC_OPTIONS_P1_ISJPEG (//)
+Jpeg
+;
+LOC_OPTIONS_P1_QUALITY (//)
+Qualité
+;
+LOC_OPTIONS_P1_ISZLIB (//)
+ZLib
+;
+LOC_OPTIONS_P1_COMPRESSION (//)
+Compression
+;
+LOC_OPTIONS_P1_ENCODER (//)
+Encodeur
+;
+LOC_OPTIONS_P2_STARTUP (//)
+Démarrage
+;
+LOC_OPTIONS_P2_ISSHARED (//)
+Accès distant partagé
+;
+LOC_OPTIONS_P2_ISICONIFY (//)
+Iconifier au démarrage
+;
+LOC_OPTIONS_P2_MOUSEKEYBOARD (//)
+Souris/Clavier
+;
+LOC_OPTIONS_P2_ISVIEWONLY (//)
+Verrouiller souris et clavier
+;
+LOC_OPTIONS_P2_ISNOCLIPBOARD (//)
+Pas de copier/coller
+;
+LOC_OPTIONS_P2_ISKBEMUL (//)
+Emuler certaines touches (ex: Home/End/Page Up)
+;
+LOC_OPTIONS_P2_ISNOLAMIGAKEY (//)
+Désactiver la touche Amiga Gauche
+;
+LOC_OPTIONS_P2_ISREPORTMOUSE (//)
+Reporter les mouvements souris du serveur
+;
+LOC_OPTIONS_P2_SPECIAL (//)
+Spécial
+;
+LOC_OPTIONS_P2_ISFLAG (//)
+Pas d'attente socket (expérimental)
+;
+LOC_OPTIONS_P3_LOCALDISPLAY (//)
+Affichage local
+;
+LOC_OPTIONS_P3_DISPLAY (//)
+Affichage
+;
+LOC_OPTIONS_P3_ISSHOWTOOLBAR (//)
+Montrer la barre d'outils
+;
+LOC_OPTIONS_P3_ISSHOWCURSOR (//)
+Montrer le curseur souris
+;
+LOC_OPTIONS_P3_VIEWPARAMETERS (//)
+Paramètres de la vue
+;
+LOC_OPTIONS_P3_VIEW (//)
+Vue
+;
+LOC_OPTIONS_P3_ISOVERLAY (//)
+Utiliser l'overlay
+;
+LOC_OPTIONS_P3_OVERLAYTHRESHOLD (//)
+% (Seuil)
+;
+LOC_OPTIONS_P3_SCREENPARAMETERS (//)
+Paramètres de l'écran
+;
+LOC_OPTIONS_P3_TYPE (//)
+Type
+;
+LOC_OPTIONS_P3_ISSHOWSCREENBAR (//)
+Afficher la barre d'écran
+;
+LOC_OPTIONS_P3_SCREEN (//)
+Ecran
+;
+LOC_OPTIONS_P3_SELECT (//)
+Choisir
+;
+LOC_OPTIONS_P4_GUI (//)
+Interface graphique
+;
+LOC_OPTIONS_P4_STYLE (//)
+Style
+;
+LOC_OPTIONS_P4_FONT (//)
+Font
+;
+LOC_OPTIONS_P4_SELECT (//)
+Choisir
+;
+LOC_OPTIONS_P4_MISC (//)
+Divers
+;
+LOC_OPTIONS_P4_ICON (//)
+Icône
+;
+LOC_OPTIONS_P4_SEARCH (//)
+Chercher
+;
+LOC_OPTIONS_P5_AUTHORS (//)
+Auteurs
+;
+LOC_OPTIONS_P5_COMPILATION (//)
+Compilation
+;
+LOC_OPTIONS_P5_THANKS (//)
+Et merci à...
+;
+LOC_OPTIONS_COLORS_SERVER (//)
+Identique au serveur
+;
+LOC_OPTIONS_COLORS_8 (//)
+8 couleurs
+;
+LOC_OPTIONS_COLORS_64 (//)
+64 couleurs
+;
+LOC_OPTIONS_COLORS_256 (//)
+256 couleurs
+;
+LOC_OPTIONS_COLORS_65K (//)
+65536 couleurs
+;
+LOC_OPTIONS_COLORS_16M (//)
+16M couleurs
+;
+LOC_OPTIONS_DISPLAY_WINDOW (//)
+Fenêtre
+;
+LOC_OPTIONS_DISPLAY_FULLSCREEN (//)
+Plein écran
+;
+LOC_OPTIONS_VIEW_NORMAL (//)
+Normale
+;
+LOC_OPTIONS_VIEW_SCALED (//)
+Retaillée
+;
+LOC_OPTIONS_TYPE_AUTODETECT (//)
+Auto détecter le mode d'écran
+;
+LOC_OPTIONS_TYPE_ASK (//)
+Demander le mode d'écran
+;
+LOC_OPTIONS_TYPE_USEMODEID (//)
+Utiliser le mode d'écran suivant
+;
+LOC_OPTIONS_STYLE_GADTOOLS (//)
+Gadtools (cf. OS3.1)
+;
+LOC_OPTIONS_STYLE_REACTION (//)
+Reaction (cf. OS3.5+)
+;
+LOC_OPTIONS_STYLE_MUI (//)
+Magic User Interface
+;
+LOC_MSG_SOCKET_ERROR (//)
+Erreur réseau
+;
+LOC_MSG_DISCONNECTED (//)
+Déconnecté
+;
+LOC_MSG_PROTOCOL_NEGOTIATION_FAILED (//)
+Échec de la négociation de protocole
+;
+LOC_MSG_INVALID_AUTHENTIFICATION (//)
+Authentification invalide
+;
+LOC_MSG_AUTHENTIFICATION_FAILED (//)
+Échec de l'authentification
+;
+LOC_MSG_AUTHENTIFICATION_TOOMANY (//)
+Trop d'utilisateurs connectés
+;
+LOC_MSG_CORRUPTED_DATA (//)
+Réception de données corrompues
+;
+LOC_MSG_NOT_ENOUGH_MEMORY (//)
+Pas assez de mémoire vive
+;
+LOC_MSG_CONNECTION_ERROR (//)
+Serveur hôte inconnu
+;
+LOC_MSG_NO_BSDSOCKET_LIBRARY (//)
+La pile TCP/IP n'est pas démarrée
+;
+LOC_MSG_TITLE (//)
+Erreur
+;
+LOC_MSG_BAD_SCREEN_MODEID (//)
+Mode d'écran invalide
+;
+LOC_MSG_BAD_SCREEN_DEPTH (//)
+Impossible d'ouvrir l'écran avec la profondeur de couleur souhaitée
+;
+LOC_MSG_CANT_OPEN_SCREEN (//)
+Impossible d'ouvrir l'écran
+;
+LOC_MSG_NOT_ENOUGH_VIDEO_MEMORY (//)
+Pas assez de mémoire vidéo
+;
+LOC_INFO_IDENTITY (//)
+Identité du serveur
+;
+LOC_INFO_HOST (//)
+Hôte
+;
+LOC_INFO_IP (//)
+IP/Port
+;
+LOC_INFO_NAME (//)
+Nom
+;
+LOC_INFO_PIXELFORMAT (//)
+Format du pixel serveur
+;
+LOC_INFO_BITPERPIXEL (//)
+Bits par pixel
+;
+LOC_INFO_DEPTH (//)
+Profondeur
+;
+LOC_INFO_BIGENDIAN (//)
+Big endian
+;
+LOC_INFO_TRUECOLOR (//)
+Vraie couleur
+;
+LOC_INFO_CLOSE (//)
+Fermer
+;
+LOC_INFO_TITLE (//)
+Informations
+;
+LOC_INFO_RGBMAX (//)
+Max RVB
+;
+LOC_INFO_RGBSHIFT (//)
+Decal. RVB
+;
+LOC_INFO_PROTOCOL (//)
+Protocole
+;
+LOC_OPTIONS_TEST (//)
+Essayer
+;
+LOC_OPTIONS_P3_ISSMOOTH (//)
+Lisser
+;
+LOC_OPTIONS_DISPLAY_NODISPLAY (//)
+Pas d'affichage
+;
+LOC_OPTIONS_SAVEAS_TITLE (//)
+Sauver la configuration actuelle
+;
+LOC_SAVEAS_INFO_TITLE (//)
+Écriture de la configuration...
+;
+LOC_SAVEAS_INFO_MESSAGE (//)
+Le fichier "%s" existe déjà
+;
+LOC_SAVEAS_INFO_BUTTONS (//)
+L'écraser|Annuler
+;
+LOC_SAVEAS_ERROR_TITLE (//)
+Erreur lors de l'écriture...
+;
+LOC_SAVEAS_ERROR_BUTTONS (//)
+Ok
+;
+LOC_BOOLEAN_YES (//)
+Oui
+;
+LOC_BOOLEAN_NO (//)
+Non
+;
+LOC_FT_TITLE (//)
+Transfert de fichiers
+;
+LOC_FT_LOCALFS_REMOTEFS (//)
+Fichiers en local / Fichiers sur le serveur distant
+;
+LOC_FT_ROOT (//)
+Racine
+;
+LOC_FT_MKDIR (//)
+Nv Rep
+;
+LOC_FT_RENAME (//)
+Ren
+;
+LOC_FT_DELETE (//)
+Sup
+;
+LOC_FT_TOOLTIP_ROOT (//)
+Revenir à la racine
+;
+LOC_FT_TOOLTIP_MKDIR (//)
+Créer un nouveau répertoire
+;
+LOC_FT_TOOLTIP_RENAME (//)
+Renommer un fichier
+;
+LOC_FT_TOOLTIP_DELETE (//)
+Supprimer un fichier
+;
+LOC_FT_TOOLTIP_PARENT (//)
+Revenir au répertoire précédent
+;
+LOC_FT_TOOLTIP_REFRESH (//)
+Rafraîchir la liste
+;
+LOC_FT_TOOLTIP_UPLOAD (//)
+Envoyer sur le serveur
+;
+LOC_FT_TOOLTIP_DOWNLOAD (//)
+Télécharger en local
+;
+LOC_FT_HISTORY (//)
+Historique
+;
+LOC_FT_ABORT (//)
+Arrêter
+;
+LOC_FT_HIDE (//)
+Cacher
+;
+LOC_FT_MES_KILO (//)
+Ko
+;
+LOC_FT_MES_MEGA (//)
+Mo
+;
+LOC_FT_MES_GIGA (//)
+Go
+;
+LOC_FT_FOLDER (//)
+Dossier
+;
+LOC_MSG_TIMEOUT (//)
+Délai de connexion dépassé
+;
+LOC_OPTIONS_P4_CONTROLKEY (//)
+Touche Ctrl.
+;

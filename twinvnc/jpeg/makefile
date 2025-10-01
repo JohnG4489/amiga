@@ -1,0 +1,18 @@
+NAME    = libjpeg.a
+VERSION = 51.1
+TARGET  = $(NAME)
+
+CFLAGS  = -Wall -D__USE_INLINE__
+LDFLAGS = 
+SRCS    = jutils.c jquant2.c jquant1.c jmemmgr.c jmemansi.c jidctred.c jidctint.c \
+      jidctfst.c jidctflt.c jerror.c jdsample.c jdpostct.c jdphuff.c \
+      jdmerge.c jdmaster.c jdmarker.c jdmainct.c jdinput.c jdhuff.c \
+      jddctmgr.c jdcolor.c jdcoefct.c jdapistd.c jdapimin.c jcomapi.c
+ASRCS   =
+
+all: $(TARGET)
+
+include $(V)/aug/MakeCross/rules.make
+
+lib: $(OBJS)
+	ppc-amigaos-ar cruv libjpeg.a jutils.o jquant2.o jquant1.o jmemmgr.o jmemansi.o jidctred.o jidctint.o jidctfst.o jidctflt.o jerror.o jdsample.o jdpostct.o jdphuff.o jdmerge.o jdmaster.o jdmarker.o jdmainct.o jdinput.o jdhuff.o jddctmgr.o jdcolor.o jdcoefct.o jdapistd.o jdapimin.o jcomapi.o

@@ -1,0 +1,15 @@
+NAME    = libzlib.a
+VERSION = 51.1
+TARGET  = $(NAME)
+
+CFLAGS  = -Wall -D__USE_INLINE__
+LDFLAGS = 
+SRCS    = zutil.c uncompr.c inftrees.c inflate.c inffast.c crc32.c adler32.c
+ASRCS   =
+
+all: $(TARGET)
+
+include $(V)/usr/local/amiga/ppc-amigaos/SDK/rules.make
+
+lib: $(OBJS)
+	ppc-amigaos-ar cruv libzlib.a zutil.o uncompr.o inftrees.o inflate.o inffast.o crc32.o adler32.o

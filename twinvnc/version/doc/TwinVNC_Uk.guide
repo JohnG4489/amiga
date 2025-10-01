@@ -1,0 +1,971 @@
+@database TwinVNC
+@master TwinVNC.guide
+@$VER: 0.92
+@remark Created by Sébastien Gréau
+
+@node "Main" "English documentation of TwinVNC"
+
+    (\\__/)    @{b}TwinVNC 0.8beta@{ub}
+    ( ^-^)    @{i}Copyright 2004-2023@{ui}
+   °TwinVNC°  This software is @{"GiftWare" link "Doc_Giftware" 0}
+    ("")~(")
+              English documentation
+
+
+
+    @{u}Table of contents@{uu}
+
+
+    @{b}@{u}General@{uu}@{ub}
+
+    @{"Description                            " link "Doc_Description"   0} ........ What is it?
+    @{"History                                " link "Doc_History"       0} ........ What's new?
+    @{"Future improvements                    " link "Doc_Future"        0} ........ What's coming up?
+    @{"Specifications                         " link "Doc_Specification" 0} ........ What it does?
+
+
+    @{b}@{u}Utilisation@{uu}@{ub}
+
+    @{"Usage under CLI or icon                " link "Doc_Usage"         0} ........ How it works?
+    @{"TwinVNC control                        " link "Doc_Control"       0} ........ Is it interactive?
+
+
+    @{b}@{u}Configuration@{uu}@{ub}
+
+    @{"Environment variables                  " link "Doc_Variables"     0} ........ Where stuff is hidden?
+    @{"Requirement                            " link "Doc_Require"       0} ........ What do I have to install with this?
+
+
+    @{b}@{u}Information@{uu}@{ub}
+
+    @{"List of some VNC Servers               " link "Doc_Servers"       0} ........ It works with what?
+    @{"Notes about tested VNC Servers         " link "Doc_Note"          0} ........ Does it actually work?
+    @{"Known bugs                             " link "Doc_Bugs"          0} ........ Is it bugged???
+    @{"Frequently asked questions             " link "Doc_FAQ"           0} ........ Help me out 'cos I'm stupid!?
+    @{"User testimonies                       " link "Doc_Testimonies"   0} ........ Who says what?
+    @{"About...                               " link "Doc_About"         0} ........ Who made this damn thing?
+@endnode
+
+
+@node "Doc_Giftware" "Giftware"
+TwinVNC is the fruit of several months hard labour in my spare time.
+
+@{b}TwinVNC is a GiftWare application.@{ub}
+
+
+@{u}So what is Giftware?@{uu}
+
+It means that you are free to send me a gift if you feel that my  work  warrants
+it or if you make frequent use of the software.
+
+
+@{u}Some gift ideas!@{uu}
+
+- a donation via PayPal using the link below:
+  http://twinvnc.free.fr/Telechargement.html
+- a To8, a To8D, a To9+, or even a floppy disk drive Thomson, a lightpen...
+  basically whatever Thomson kit you have lying around.
+- an amiga 1200, or amiga kit which still works and that you don't use anymore.
+- a Pegasos or an AOne.
+- a PC or a motherboard with whatever bits you can give  up  (RAM,  hard  drive,
+  etc).
+- a Ferrari....!!
+- a postcard from your region.
+- a special delivery of culinary delicacies from your region.
+- a trip to the Caribbean.
+- a job offer with good benefite and excellent salary.
+- one place (or two) for a show in Paris.
+- a night with your girlfriend.
+- a keyfile of your software if you are a developper.
+- a DVD that I haven't seen or a pack of blank R or RW DVD's.
+- etc etc etc.........
+@endnode
+
+
+@node "Doc_Description" "Description"
+@{b}@{u}Description@{uu}@{ub}
+
+TwinVNC is a VNC client (or viewer) allowing control of  a  computer  running  a
+@{"VNC server" link "Doc_Servers" 0}.
+TwinVNC has been programmed from scratch on Amiga and compiled with SAS/C.  It's
+based  on  the  RFB  communication   protocol  (version   3.8),   available   at
+www.realvnc.org.
+TwinVNC is not  an  open  source  project  for  the  moment.  It  will  be  when
+considered ready.
+TwinVNC is now @{"GiftWare" link "Doc_Giftware" 0}.
+@endnode
+
+
+@node "Doc_History" "History"
+@{b}@{u}History@{uu}@{ub}
+
+0.9beta (15/02/2023):
+    * Added  : - Keyboard shortcut AmigaR+D: Switches the display  to  NODISPLAY
+               mode (full screen without refresh).
+               - Keyboard shortcut AmigaR+P: Allows you  to  resize  the  window
+               proportionally without using the mouse. This  option  also  works
+               in full screen mode.
+               - Emulation of the "square" key via AmigaR+'`'.
+               - Added the CTRLKEY  argument.  This  option  allows  the  AmigaR
+               control key to be redefined for TwinVNC shortcuts.
+               - Management of file transfer up  and  down.  This  option  works
+               @{b}ONLY@{ub} with a Tight 1.x or 2.x server.
+               It is accessible via  the  AmigaR+K  shortcut.  This  option  may
+               require the installation of the codesets.library.
+               - Add "Requirement" section in the doc.
+               - Support of Tight authentication.
+
+    * Changes : - Improved   keyboard   management :  Some    combinations    of
+               "AltLeft+alphabetic key" did not work.
+               - Shielding of TwinVNC to avoid a  crash  in  certain  conditions
+               with Vnc4server.
+               - Updated the ZLib lib to 1.2.13
+               - Removed the blocking of mouse movements around the  borders  of
+               the window.
+               - Redesign of the code layer that manages the display.
+               - Minor fix on the use of sockets.
+               - Proportional resizing now takes into account the  screen  pixel
+               ratio.
+               - Minor fix on Amiga OS4  and  MorphOS  with  the  reduce/enlarge
+               window button. TwinVNC now repositions the window if it overflows
+               the screen.
+               - Elimination of some hidden enforcer hits + Fix of  a  crash  in
+               overlay mode.
+               - Possibility to cancel the connection during the  contact  phase
+               of the host.
+               - Modification of the management of  accented  characters.  These
+               characters did not work on a more recent Tight server.  They  now
+               work on the latest versions of Tight, but will no longer work  on
+               a Tight 1.3.x server.
+               - Improved automatic screen mode detection in full screen mode.
+
+0.8beta (09/04/2007):
+    * Added  : - [DOC] Added a "testimonies" menu of day-to-day TwinVNC users.
+               - Possibility to save your options in a workbench icon.
+               - A localized Information box that displays technical information
+               about the server connection.
+               - The "Reconnect" toolbar button is now available.
+               - New NODISPLAY option.  This  option  allows  you  to  stop  the
+               incremental refresh display on  the  TwinVNC  side  (an  RAmiga+R
+               shortcut allows you to  force  a  global  screen  refresh).  This
+               improvement was submitted by Crisot. It is useful when  you  have
+               an Amiga as well as another computer that  both  have  their  own
+               screen, but with only one mouse and keyboard.
+               You can thus control this remote computer with low CPU  usage  on
+               both machines, as the Amiga screen is not refreshed on the client
+               side and then not compressed and sent on the server side.
+               Note that this option forces full screen mode without the toolbar
+               or screen bar to avoid erratic mouse behaviours when out  of  the
+               display zone.
+               - New "Test" button in the options box that allows you to preview
+               options modifications without having to close this window.
+               - Added the RAmiga+Enter shortcut. This option forces the  window
+               to be resized with the startup predefined settings, or 100% if no
+               size has been defined.
+               - Added the CRYPT and SPASS parameters which allow the use of  an
+               encrypted password in your icon  tooltypes  or  in  your  command
+               line. The Crypt option is only available for icon use. It can  be
+               used to encrypt a non-crypted password string.
+               Example: TwinVNC CRYPT="abcd" will encrypt the "abcd" string that
+               you will use with SPASS parameter instead of the PASS  parameter.
+               Thus, your password will be fully encrypted.
+               - The aspect of  the  mouse  cursor  has  been  modified  in  the
+               "View Only" mode.
+               - Added the NOREPORTMOUSE parameter that allows  you  to  disable
+               the transfer of mouse movement data from the server.
+               - Third  mouse  button  emulated  for  two-button   mouses:   Use
+               left-click+RAmiga shortcut.
+               - Font properties are now available in the Customise page of  the
+               options box.
+               - Added the SMOOTH parameter. This enables soft smoothing of  the
+               scale mode, using an RTG monitor or  not.  This  option  is  also
+               available on the options box.
+
+    * Changes: - RTG blits are now non-aligned on 32 bits. This change was  made
+               because of a graphics.library bug, but it was not required in RTG
+               mode.
+               - Some memory optimisations for normal display  mode  in  256  or
+               65536 colors.
+               - Fixed mouse cursor display bug using the cursor option  of  the
+               options box. The mouse cursor was erratically displayed.
+               - Fixed window title bar refresh when the graphical resolution of
+               the server changes.
+               - Deleted the specific TS + Shift key fix. This patch caused some
+               problems with OSX Vnc.
+               - Fixed a toolbar display bug when toolbar  was  enabled/disabled
+               via the options box.
+               - Others minors bugs fixed.
+
+0.7beta (10/04/2006):
+    * Added  : - Tooltip support for toolbar buttons.
+               - Connection box, status box and options box added with  language
+               specific text.
+               - Added TOP, LEFT, WIDTH and HEIGHT arguments to  force  position
+               and dimension of window view. TwinVNC  centre  the  display  when
+               these values are not defined.
+               - Toolbar is now available in full public screen.
+               - Added RAmiga+T shortcut to toggle ON/OFF toolbar display.
+               - Scale display mode is now available in full  screen  (up  scale
+               and down scale).
+               - Upscale is now available in window mode.
+               - Overlay is now available in full screen (up  overlay  and  down
+               overlay).
+               - Added "proportional resize"  option  of  the  window.  You  can
+               resize the window view  with  Left  Shift  or  Right  Amiga  keys
+               depressed.  The  window  will  be   resized   with   proportional
+               dimensions of original view.
+               - Added NOSHARED argument to start VNC in share mode.
+               - Added VIEWONLY argument to start VNC with  mouse  and  keyboard
+               locked.
+               - Added SCREENBAR argument to force displaying the screen bar  on
+               the public screen. Use RAmiga+B shortcut to change this setting.
+               - Added support of the server  pixel  format.  TwinVNC  uses  the
+               depth and pixel proporties of the server  by  default.  You  must
+               force the DEPTH option if you  use  low  cost  bandwidth  graphic
+               mode.
+               - Mousewheel management on AmigaOS4.
+               - Added FONTNAME and FONTSIZE arguments to select the font to use
+               with the graphical interface.
+               - Implementation of the socket NODELAY option. This improves  the
+               fluidity of the server side mouse.
+
+    * Changes: - Upgrades zlib library with version 1.2.3.
+               - TwinVNC now uses the  disk  icon  as  AppIcon  to  iconify  the
+               application, if it exists.
+               - The default  icon  is  replaced  by  a  cool icon  designed  by
+               Highlander.
+               - Some overlay optimisations.
+               - Fix to  bypass  a  system  crash  in  certain  conditions  with
+               overlay when you resize window with 0x0 inner dimensions.
+               - Fix overlay with toolbar. A black  bar  was  displayed  at  the
+               bottom  of  the  window.  This  bug   was   caused   by   a   bad
+               implementation of the cgxvideo.library on my OS. I  have  created
+               a patch to fix  this  bug  (See  PatchOverlay  command  available
+               in the TwinVNC archive).
+               - Fix of an iconify effect. TwinVNC was  uniconified  (maximised)
+               when remote screen resolution was changed.
+               - Optimisation of Hextile, Tight and ZRle codecs.
+               - Fix a soft scale display bug that  caused  black  vertical  and
+               horizontal lines.
+               - Optimisation of memory consommation and speed up scale mode.
+               - Fix to allow connection with empty password.
+               - Fix a minor bug in the Tight codec with Jpeg  option.  The  bug
+               was visible if you exited TwinVNC during Jpeg refresh.
+               - Fix a system freeze bug in AGA caused by a  bad  implementation
+               of WriteChunkyPixel() of  graphics.library.  Graphics  blits  are
+               now aligned in 32 bytes to bypass this bug.
+               - Fix a deconnection problem in TwinVNC due to the  reception  of
+               an empty clipboard.
+               - Changes made to behaviour of ZLib feature. You must  now  force
+               this feature to change the value used by the server.
+               - Changed DOVERLAY by OVERLAY.  This  argument  allow  to  define
+               threshold (in percent) of activation of the hard  scale.  Default
+               value -1 mean "no overlay". 100% mean "overlay in  upscale".  And
+               0% mean "always use overlay".
+               - The NOCURSOR option is now by default  and  the  CURSOR  option
+               replaces it.
+               - Improvement of the shift  key  management  on  Terminal  server
+               software.
+
+0.6betadev1 (28/02/2005):
+    * Added  : - Improved Scale mode without filtering (use  SCALE  Argument  or
+               RAmiga+S shortcut).
+               - Added MODEID argument to  set  screen  mode  ID  of  fullscreen
+               mode.
+               - Clipboard management. Use NOCLIPBOARD to desactivate this.
+               - New NOLAMIGAKEY argument.
+               - New ICONIFY argument to start TwinVNC on iconify mode.
+
+    * Changes: - Some keyboard shortcut changes (RAmiga+S and RAmiga+Del).
+               - Overlay management modification with scale option.
+               - Changed USEOVERLAY by DOVERLAY.
+               - Improved keyboard management (F11, F12, Page  Down/Up,  Insert,
+               Pause, Scroll Lock, Begin/End).
+
+0.5betadev7 (09/01/2005):
+    * Changes: sg2 code design for OS4 version.
+    * Fixed  : Fixed problem with "\\~`{}[]" keys  when  using  a  keyboard  with
+               a Windows Keymap (Pb encountered on MorphOS).
+
+0.5betadev6:
+    * Fixed:   Problem with keyboard with control shortcuts for TwinVNC.
+               When switching between  overlay/non-overlay,  iconify/de-iconify,
+               etc...
+               It was switching/de-switching too fast!
+
+0.5betadev5:
+    * Added  : Toolbar support.
+      Added  : Added KBEMUL argument  to  force  emulation  of  PageUp/PageDown,
+               Begin/End keys thru RShift+Arrow keys.
+      Added  : Snapshot window position when iconifying.
+      Added  : Argument USEOVERLAY for....you know what.
+      Added  : Software scaling (not yet finished)
+
+0.5betadev4:
+    * Fixed  : Fixed keymap  handling   with  a  RealVNC  server.  There  is  an
+               accent incompatibility between Tight and Real.
+
+    * Added  : Switch FullScreen/Windowed with RAmiga+F.
+      Added  : Direct support of PageDown/Up,  Begin/End  and  Insert  on  a  PC
+               keyboard with MorphOS (and AOS4 ??).
+
+0.5betadev3:
+    * Fixed  : ZRLE decompression problem.
+    * Added  : Improved keyboard support  for  Page  Down/Up/Home/End  by  using
+               RShiftR+arrow keys.
+      Added  : Iconification with RAmiga+I
+
+0.5betadev2:
+    * Fixed  : Small problem with the ALT key.
+    * Added  : Detailed Toolbar.
+               Began Toolbar code in WINDOWED mode.
+
+0.5betadev:
+    * Fixed  : Small problem with local cursor.
+    * Added  : Argument NOCURSOR un WINDOWED mode.
+      Changed: WINDOWED mode code restructured.
+               DEPTH 16 mode optimization.
+
+0.4betadev10:
+    * Fixed  : Small fix in ZRLE codec.
+    * Added  : WINDOW argument to display in  windowed  mode.  This  feature  is
+               available, for now, on-bits or more RTG modes.
+
+0.4betadev9:
+    * Fixed:   Small fix on a non-terminated taglist.
+    * Added  : A few tooltypes in program icon.
+               (same keywords as arguments).
+
+0.4betadev8:
+    * Changed: Better jpeg support in Tight codec.
+               Optimized compilation of JPEG lib in the projet.
+               Improved RAW codec.
+    * Added  : NOLOCAL and NOCOPYRECT arguments.
+
+0.4betadev7:
+    * Added  : Argument NOCURSOR to not display the Amiga pointer
+               JPEG support in codec Tight.
+               Arguments ZLIB and JPEG for codecs using ZLib and Jpeg.
+
+0.4betadev6:
+    * Fixed  : Display bug with ZRle codec in 32-bits modes only.
+    * Added  : Gradient mode support in codec Tight for 16 and 32-bits depths.
+
+0.4betadev5:
+    * Added  : Added an option in socket to prevent packet buffering.
+
+0.4betadev4:
+    * Fixed  : Display bug in 32 bits more using ZLibHex and ZRle.
+               Bug with SERVERCUTTEXT log.
+    * Added  : New XCursor codec to manage local 2 colours mouse cursor.
+@endnode
+
+
+@node "Doc_Future" "Future improvements"
+@{b}@{u}Work pending before release version@{uu}@{ub}
+
+- Global optimisation of the display
+  Note: speed up should be felt under 68k at least
+- Mode pro with profile or simultaneous connections.
+- Propose a global save system of the options
+
+
+@{b}@{u}Future improvements@{uu}@{ub}
+
+- Add others codecs (see what UltraVNC do)
+- Improve toolbar display strategy
+- Propose other GUI styles
+- Protect TwinVNC against corrupted data from bugued servers with some codecs
+@endnode
+
+
+@node "Doc_Specification" "Specifications"
+@{b}@{u}Specifications@{uu}@{ub}
+
+TwinVNC can use several screen depths, RTG or AGA (default is RTG). It uses zlib
+version 1.2.13 for certain codecs.
+
+@{b}@{i}* Supported codecs are:@{ui}@{ub}
+    RAW         : supported by all VNC servers (worst efficiency)
+
+    RRE         : supported by all VNC servers (poor efficiency)
+
+    CoRRE       : supported by TightVNC (poor efficiency)
+
+    HexTile     : supported by all servers (medium efficiency)
+
+    ZLibHex     : supported by TightVNC. Like HexTile with  compression  of  RAW
+                  parts. (not so much better than HexTile)
+
+    ZLibRaw     : supported by TightVNC. Like RAW with ZLib compression.
+                  (good efficiency)
+
+    ZRle        : supported by RealVNC. Special encoding with ZLib compression.
+                  Gives good results with depth less than 8-bits.
+                  (good efficiency)
+
+    Tight       : supported by TightVNC.  Very  efficient  with  ZLib  and  JPEG
+                  support (16 and 32 bits.)
+
+
+@{b}@{i}* Supported sub-codecs:@{ui}@{ub}
+    XCursor     : supported by TigthVNC. Support of local cursor (2 colors)
+
+    RichCursor  : supported by  all  servers.  Support  of  local  cursor  (true
+                  color)
+
+    CopyRect    : supported by all servers.
+
+
+@{b}@{u}About the use of codecs@{uu}@{ub}
+
+TwinVNC supported codecs are not present in all VNC servers:
+
+- RealVNC4 has the following codecs
+  RAW, RRE, Hextile and ZRle.
+  Also: RichCursor and CopyRect.
+
+- Servers TightVNC1.2.9 to TightVNC1.3beta6 support
+  RAW, RRE, CoRRE, Hextile, ZLibHex, ZLibRaw and Tight.
+  Also supported: XCursor, RichCursor and CopyRect.
+
+- Latest UltraVNC server has all TwinVNC supported codecs.
+  Note : After a few local  tests,  I  noticed  UltraVNC  was  far  slower  than
+  TightVNC, with TwinVNC as client.
+@endnode
+
+
+@node "Doc_Usage" "Usage under CLI or icon"
+@{b}@{u}Getting started@{uu}@{ub}
+
+You can launch TwinVNC without any arguments in a CLI or without  any  tooltypes
+from an icon. A connection dialogue box will appear and you can simply  use  the
+GUI to connect.
+
+
+@{b}@{u}Usage under CLI or icon@{uu}@{ub}
+
+TwinVNC HOST,PORT/N,PASS,SPASS,ENCODERID/N,ASKMODEID/S,MODEID/N,DEPTH/N,
+        SERVERSCALE/N,ZLIB/N,JPEG/N,AMIGACURSOR=CURSOR/S,
+        NOLOCALCURSOR=NOLOCAL/S,NOCOPYRECT/S,NOREPORTMOUSE/S,NOCLIPBOARD/S,
+        NODISPLAY/S,WINDOW/S,TOOLBAR/S,SCREENBAR/S,KBEMUL/S,NOLAMIGAKEY/S,
+        NOSHARED/S,VIEWONLY/S,OVERLAY/N,SCALE/S,SMOOTH/S,ICONIFY/S,LEFT/N,TOP/N,
+        WIDTH/N,HEIGHT/N,FONTNAME,FONTSIZE/N,CTRLKEY,CRYPT,FLAG/S
+
+@{b}@{i}* Example:@{ui}@{ub}
+    "Ram Disk:> TwinVNC localhost 5900 mypass"
+
+@{b}@{i}* Description:@{ui}@{ub}
+   HOST         : IP of VNC server
+
+   PORT         : Port of VNC server (default 5900)
+
+   PASS         : Password to connect to server
+
+   SPASS        : Securized password to connect to server.
+                  Note: use the CRYPT option to encrypt the password to be  used
+                  with the SPASS parameter.
+
+   ENCODERID    : Codec ID to use first, if possible:
+                  - 0: Tight (défaut)
+                  - 1: ZRle
+                  - 2: ZLibRaw
+                  - 3: ZLibHex
+                  - 4: Hextile
+                  - 5: CoRRE
+                  - 6: RRE
+                  - 7: RAW
+                  Warning: the codec used by the server may not be the  one  you
+                  specified  first.  It  all  depends  on  the  server's   codec
+                  availability.
+
+   ASKMODEID    : Screenmode requester for fullscreen mode
+
+   MODEID       : Screen mode ID to use for fullscreen mode
+
+   DEPTH        : Screen depth (3, 6, 8, 16 or 32).
+                  If this argument is set to 0 or if not  exists,  then  TwinVNC
+                  uses the server graphics settings.
+
+   SERVERSCALE  : (EXPERIMENTAL ! Do not use !)
+
+   ZLIB         : Specifies ZLib compression level.
+                  Possible values: 0->9 (server uses its value by default)
+
+   JPEG         : This option is for Tight only.
+                  Specifies JPEG compression quality.
+                  Possible values: 0(worst)->9(best).
+                  There is no default value. This argument  activates  the  Jpeg
+                  mode with Tight codec.
+                  This feature is available for 16 or 32 bits depths only.
+
+   CURSOR       : Enable Amiga pointer
+
+   NOLOCAL      : Non-local handling of distant cursor.
+
+   NOCOPYRECT   : Disables CopyRect codec.
+
+   NOREPORTMOUSE: Disables mouse movement data transfer from the server.
+
+   NOCLIPBOARD  : Disables copy/past stream came from server.
+
+   NODISPLAY    : Stop the incremental screen display;  thus,  allowing  you  to
+                  decrease cpu usage  of  your  client  and  your  server.  This
+                  option can be disabled by using the options box.
+                  The idea is to control a remote computer with a  local  screen
+                  but without mouse or keyboard.
+                  The client and server cpus charges should be lowered.
+                  Note: this option forces a full screen  mode  without  ToolBar
+                  nor  ScreenBar  in  order  to  avoid  erratic   mouse   cursor
+                  behaviour. The RAmiga+R shortcut allows  you  to  display  the
+                  current remote screen.
+
+   WINDOW       : Windowed mode
+
+   TOOLBAR      : Displays toolbar in windowed mode (experimental)
+
+   SCREENBAR    : Displays screen bar in full screen
+
+   KBEMUL       : Forces TwinVNC to emulate keys Page  Down/Up,  Begin  and  End
+                  using RShift + arrow keys.
+
+   NOLAMIGAKEY  : Disables LAmiga Key. This  option  was  requested  by  TwinVNC
+                  users.
+
+   NOSHARED     : Connection in shared mode.
+
+   VIEWONLY     : Lock mouse and keyboard.
+
+   OVERLAY      : Define threshold of activation of the overlay in percent.
+                  Example:
+                  - "-1" or no argument mean "don't use overlay"
+                  - "100" mean "overlay in upscale"
+                  - "0" mean "always use overlay"
+
+   SCALE        : Forces display to be resized with window dimensions.
+                  This option can be use with OVERLAY argument  to  use  graphic
+                  card hardware functionnalities.
+
+   SMOOTH       : Enables soft smooth of the scale mode.
+                  Note: the algorithm is optimized to only use your cpu  integer
+                  unit.
+
+   ICONIFY      : Start TwinVNC on iconify mode.
+
+   LEFT         : Defines vertical position of the window (centered by default).
+
+   TOP          : Defines  horizontal  position  of  the  window  (centered   by
+                  default).
+
+   WIDTH        : Defines width of the view of remote display.
+
+   HEIGHT       : Defines height of the view of remote display.
+
+   FONTNAME     : Defines the font to use with graphical  interface  (topaz.font
+                  by default).
+
+   FONTSIZE     : Defines  the  font  size  of  the  font  used  with  graphical
+                  interface (8 by default). Min=1 and Max=n.
+
+   CTRLKEY      : *@{b}NEW@{ub}* Allows you to redefine the control key of TwinVNC.
+                  By default the AmigaR key is defined.
+                  This option only accepts the grey "Qualifier" keys.
+                  Here is a list of the names of the combinable keys:
+                  - CTRL: Control key
+                  - LSHIFT: Left shift key
+                  - RSHIFT: Right shift key
+                  - LALT: Left Alt key
+                  - RALT: Right Alt key
+                  - LAMIGA: Left Amiga key (or Command)
+                  - RAMIGA: Right Amiga key (or Command)
+                  Note: This option is redefinable in the "customize" tab of the
+                  options interface.
+                  By default, the RAMIGA option is used.
+                  It is possible to define a combination of keys  by  separating
+                  them with the "+" separator. Example: CTRLKEY="CTRL+LSHIFT"
+
+   CRYPT        : Allows you to encrypt a password string that can be used  with
+                  the SPASS parameter.
+                  Example: TwinVNC CRYPT="abcd"
+                  Returns the encrypted string that can be used with  the  SPASS
+                  parameter to encrypt your password on  your  command  line  or
+                  icon tooltypes.
+
+   FLAG         : (EXPERIMENTAL)
+
+
+@{b}@{u}ToolTypes@{uu}@{ub}
+
+All these arguments are  available  using  tooltypes  of  icon,  excepted  CRYPT
+option.
+@endnode
+
+
+@node "Doc_Variables" "Environment variables"
+@{b}@{u}Environment variables@{uu}@{ub}
+
+TwinVNCHosts: This variable is saved by TwinVNC to backup the latests hosts used
+on the connection box.
+
+TwinVNCHideChar: Uses this variable to define the Hide Char  used  to  hide  the
+password string on the connexion box.
+@endnode
+
+
+@node "Doc_Require" "Required"
+@{b}@{u}Required@{uu}@{ub}
+
+In  absolute  terms,  TwinVNC  is  designed  to  run  on  a  freshly   installed
+Amiga OS 3.1 with a basic TCP/IP stack.
+However, to work properly, TwinVNC may need some additional libraries.
+
+* RTG library:
+  TwinVNC  supports  both  types  of  RTG  systems  on  the  Amiga:  Picasso  or
+  Cybergraphics. The installation is your responsibility.
+
+
+* Codesets
+  The installation of the codesets.library is required when  transferring  files
+  with a Tight 2.x server.
+  TwinVNC incorporates its own UTF8<->Latin1 charset conversion routines if this
+  library is not installed. It should be installed if the charsets of the  amiga
+  and the remote server are not Latin1 (i.e. Ansi/ISO-8859-1).
+  Link on Aminet: http://aminet.net/util/libs/codesets-6.19.lha
+
+* Catalogs
+  The TwinVNC interface is in English by default. You must install  the  catalog
+  for your language if needed.
+
+@endnode
+
+
+@node "Doc_Control" "TwinVNC Control"
+@{b}@{u}Keyboard@{uu}@{ub}
+
+@{b}@{i}* TwinVNC control keys:@{ui}@{ub}
+
+    By default the grey "Amiga Right" key is used as the control key. But  since
+    version 0.92 of TwinVNC, it is possible to change this control key.
+
+    RAmiga + Q: Closes connection and quits TwinVNC
+    RAmiga + R: Forces complete screen refresh
+    RAmiga + I: Inconifies TwinVNC
+    RAmiga + F: Switch FullScreen/Window
+    RAmiga + S: Switches to/from Scale mode
+    RAmiga + T: Toggle ON/OFF Toolbar
+    RAmiga + B: Toggle ON/OFF screen bar (on public screen only).
+    RAmiga + O: Displays options box
+    RAmiga + D: *@{b}NEW@{ub}* Enables/Disables the NODISPLAY feature
+    RAmiga + P: *@{b}NEW@{ub}* Resize the window or screen proportionally
+    RAmiga + K: *@{b}NEW@{ub}* Display the file transfer window
+    RAmiga + Resize of the window using the mouse: Resize proportional
+    RAmiga + Enter: Reinitializes the display dimensions
+
+
+@{b}@{i}* Shortcut keys:@{ui}@{ub}
+    RAmiga + Del   : Emulates Ctrl+Alt+Suppr (useful under WinUAE)
+                     Note: on Amiga, Just use keys Ctrl+Alt+Suppr.
+    RShift + haut  : Emulates "Page Up" (with argument KBEMUL)
+    RShift + bas   : Emulates "Page Down" (with argument KBEMUL)
+    RShift + gauche: Emulates "Home" (with argument KBEMUL)
+    RShift + droite: Emulates "End" (with argument KBEMUL)
+    RAmiga + Left Click: Emulates mouse's third button
+
+
+@{b}@{i}* NumPad specific : On a classic Amiga Numeric Pad,  some  keys  have  two  uses
+  (written on the front of the key):@{ui}@{ub}
+    RAmiga + [: Num Lock
+    RAmiga + ]: Scroll Lock
+    RAmiga + /: Sys Req
+    RAmiga + *: Print Screen
+    RAmiga + 7: Home
+    RAmiga + 8: Up Arrow
+    RAmiga + 9: Page Up
+    RAmiga + 4: Left Arrow
+    RAmiga + 6: Right Arrow
+    RAmiga + 1: End
+    RAmiga + 2: Down Arrow
+    RAmiga + 3: Page Down
+    RAmiga + 0: Insert
+    RAmiga + .: Delete
+
+
+@{b}@{i}* Extented functions keys:@{ui}@{ub}
+    RAmiga + F1->F10: Emulates keys F11->F20
+
+
+@{b}@{i}* Misc notes:@{ui}@{ub}
+    - Page Down/Up keys, begin/end key and insert key are supported correctly on
+      MorphOS (maybe also AOS4).
+    - And F11 key, F12 key, Print Screen key, Pause key and Scroll Lock key  are
+      now correctly supported.
+
+
+@{b}@{u}Mouse@{uu}@{ub}
+
+3-button and/or scrollwheel mouse supported.
+@endnode
+
+
+@node "Doc_Servers" "List of some VNC Servers"
+@{b}@{u}List of some VNC Servers@{uu}@{ub}
+
+@{b}@{i}* Amiga OS3 Server:@{ui}@{ub}
+    - AmiVNC:    http://aminet.net/package/comm/tcp/AmiVNC
+
+@{b}@{i}* Amiga OS4 Server:@{ui}@{ub}
+    - AmiVNC:    http://aminet.net/package/comm/tcp/AmiVNC4
+
+@{b}@{i}* MorphOS Server:@{ui}@{ub}
+    - VNCServer: https://dreamolers.binaryriot.org/vncserver/
+
+@{b}@{i}* Windows Servers:@{ui}@{ub}
+    - RealVNC:   https://www.realvnc.com/en/connect/download/vnc/
+    - TightVNC:  http://www.tightvnc.com/download.php
+    - UltraVNC:  https://uvnc.com/downloads/ultravnc.html
+
+@{b}@{i}* Mac Server:@{ui}@{ub}
+    - OSXVNC:    https://github.com/stweil/OSXvnc/releases/tag/V5_3_1
+
+@{b}@{i}* Linux Server (source code):@{ui}@{ub}
+    - TightVNC:  http://kent.dl.sourceforge.net/sourceforge/vnc-tight/tightvnc-1.3.8_unixsrc.tar.bz2
+@endnode
+
+
+@node "Doc_Bugs" "Bugs connus"
+@{b}@{u}Known bugs (more or less...)@{uu}@{ub}
+
+In fact, these are not functionality bugs.
+No user has yet reported crashes related to TwinVNC. The identified crash causes
+came from external elements.
+
+
+@{b}* But there are crashes anyway...@{ub}
+    TwinVNC can potentially crash your system if it connects  to  an  unreliable
+    VNC server. This is the case with some VNC servers  which  have  incorrectly
+    implemented codecs.
+    Except for the CoRRE codec, TwinVNC does  not  control  graphic  information
+    sent by the server. If the server requires  to  fill  a  rectangle  that  is
+    larger  than  the  screen,  TwinVNC  will  perform  it;  that  may  cause  a
+    potentially fatal border effect.
+
+@{b}* What about the overlay?@{ub}
+    The overlay can cause  the  following  issues  depending  on  the  graphical
+    configs:
+    - Some configs don't support the downscaled overlay. In such a case, use the
+    "OVERLAY=100" parameter.
+    - Others configs don't support the  downscaled  overlay  under  50%  of  the
+    original size. In this case, use the "OVERLAY=50" parameter.
+    - And finally, on my own configuration, the  overlay  option  causes  issues
+    with the ToolBar option. The display zone exceeds the window borders. So,  I
+    implemented a patch which resolves this bug (see  the  PatchOverlay  command
+    line available within this archive).
+
+@{b}* Potential bug with the server "color map" concept@{ub}
+    This problem can take place using an indexed color map (<=256 colors) on the
+    server side. The VNC RFB protocol allows the server  to  send  a  predefined
+    color map to the client. Up to now, few servers support this  functionality,
+    because they have the possibility to exchange  graphic information  in  true
+    color mode (the color is coded by the pixel) with the client, even for 8-bit
+    displays.
+    TwinVNC is thus supposed to handle this fonctionality but has not  yet  been
+    tested.
+@endnode
+
+
+@node "Doc_Note" "Notes about tested VNC Servers"
+@{b}@{u}Notes about tested VNC Servers@{uu}@{ub}
+
+@{b}@{i}* With server Tight 1.2.9:@{ui}@{ub}
+    No problem. I've been using this one for some time  with  a  very  efficient
+    ZLibRaw codec.
+
+
+@{b}@{i}* With server Tight 1.3beta4:@{ui}@{ub}
+    The server randomly crashes when using other codecs that  Tight  (also  when
+    using TightVNC as client). The server sends corrupt data  when  using  CoREE
+    encoding, which also causes TwinVNC  crashes.  This  problem  was  fixed  by
+    adding preventive clipping before encoding.
+
+
+@{b}@{i}* With server Tight 1.3beta5:@{ui}@{ub}
+    No server crashes with ZLibRaw encoding. Data is still corrupt  with  CoREE,
+    but TwinVNC uses a walkaround.
+    Looks like the server sometimes "forgets" to refresh certain  screen  areas,
+    also happens with TightVNC client.
+
+
+@{b}@{i}* With the Tight 1.3.x server: @{ui}@{ub}
+    Since TwinVNC 0.92, it is no longer possible to type an  accented  character
+    correctly. This is due to  an  incompatibility  between  Tight  VNC 2.x  and
+    Tight VNC 1.3.x.
+
+
+@{b}@{i}* With server RealVNC 4:@{ui}@{ub}
+    No problems found with current version of TwinVNC
+
+
+@{b}@{i}* With all servers:@{ui}@{ub}
+    They all have some problems with some refreshed parts! This problem  can  be
+    reproduced with TwinVNC as much as with any Windows VNC  Viewer.  Tip:  Just
+    click within the modified area so that the server can  notify  it  has  been
+    changed and send appropriate data to the client.
+
+@endnode
+
+
+@node "Doc_FAQ" "Frequently asked questions (FAQ)"
+@{b}@{u}FAQ@{uu}@{ub}
+
+@{b}* "I understand nothing about command lines or arguments. How do I  launch  this
+  damn thing?"@{ub}
+
+@{i}  You doubleclick the  icon  and  a  nice  little  GUI  appears  especially  for
+  you... dufus.@{ui}
+
+
+@{b}* "Ok, I have clicked on the icon and something started. What happens now?"@{ub}
+
+@{i}  You need to connect to a VNC server to be able to take control of something (I
+  would suggest that you start with your life).
+  There are lots of @{"VNC servers" link "Doc_Servers" 0}, covering all OS's.
+  You need to  enter  the  IP address of the server (as  well  as  the  port  if
+  this is not the default 5900) in the zone "Host" and the password to  the  VNC
+  service running on the host.@{ui}
+
+
+@{b}* "Ok, I've done everything correctly but nothing happens afterwards."@{ub}
+
+@{i}  Check that their is no  firewall.  If  you  have  access  to  the  server  try
+  disabling the firewall.@{ui}
+
+
+@{b}* "Ok, it connects but I get an error message saying that  the  authentification
+  doesn't work."@{ub}
+
+@{i}  Your password is wrong!!! Check CAPS LOCK.@{ui}
+
+
+@{b}* "Arghhhh, I have lost my connection box when I launch from the icon."@{ub}
+
+@{i}  Delete the tooltypes Host and Pass in the icon.@{ui}
+
+
+@{b}* "I connect to several VNC servers and I'm fed up typing in the bloody hosts!"@{ub}
+
+@{i}  The host selection list keeps a history.  Just  play  with  the  up  and  down
+  arrows to find the host your want.@{ui}
+
+
+@{b}* "Automatic screen mode detection does not give excellent results. Why?"@{ub}
+
+@{i}  TwinVNC uses system functions to obtain the best screen mode.
+  If the screen mode decided by the system is not optimal, it  is  advisable  to
+  force the one you want, either with the MODEID option as an argument,  or  via
+  the "Display" tab in the options box.@{ui}
+
+@endnode
+
+
+@node "Doc_Testimonies" "Témoignages"
+@{b}@{u}User testimonies@{uu}@{ub}
+
+Note: Any opinions expressed in these articles are those of their authors and do
+not necessarily represent those of TwinVNC.
+You are welcome to add in your own testimonies here.
+
+
+@{b}* Crisot (26/02/2007): French user of AmigaOS4@{ub}
+  @{i}[Translation from french]@{ui}
+
+  "TwinVNC is the best client I've ever used.
+
+  Tip: use always the most adapted codec depending on  your  computer/connection
+  performances.
+  Even though the Tight codec is  always  the  best  for  a  remote  connection,
+  ZLibRaw can often be more efficient for a local office software use.
+  Even when playing games, with a powerful server,  I've  already  noticed  that
+  ZLibHex can be faster, optimising games or videos on low resolutions.
+  Test this, it depends of your server cpu and ethernet/wifi performances.
+
+  Other tip: there is an embedded no display mode in TwinVNC. What for? A  click
+  over on a well designed icon, you can tranform your Amiga  into  an  extremely
+  useful virtual KVM.
+
+  I go on and on about this app! Its overlay, its quick and  efficient  software
+  scaling, its clear performances (test an other client on  an  other  computer,
+  then you will see that the codec  choice  is  not  always  easy).  TwinVNC  is
+  ultimate!"
+
+
+@{b}* Batteman (21/02/2007): French user of MorphOS@{ub}
+  @{i}[Translation from french]@{ui}
+
+  "I came across TwinVNC accidentally. Indeed, at the moment this  new  software
+  came out on the Amiga scene, I had no idea of what it could actually do.
+  After picking up some information on the VNC protocol, I  realised  that  this
+  type of software was not made for me as I only have an iBook.  But  I  however
+  did install a VNC server on it to play around with TwinVNC to  do  some  grabs
+  for Seg.
+
+  The purpose of this app then seemed obvious to me but not  with  a  laptop  as
+  server. So, I'll have to wait another couple of years before I get  back  down
+  to  TwinVNC.  After  having  won  a  PC  during  Alchemy 6,  having  installed
+  Ubuntu 6.10 and tweaked the Ubuntu VNC server to run automatically, I  finally
+  could start using TwinVNC again, and I do!
+
+  It allows me to do many things: using only one keyboard and mouse  to  control
+  my Pegasos under MorphOS and to control the PC.  It  allows  me  to  use  this
+  Ubuntu PC more than I would because I can  now  transparently  use  apps  that
+  don't exist on MorphOS, as a 'modern' web browser  or  a  torrent  client  for
+  example.
+
+  Therefore, I can use them without even realising  that  I'm  using  a  PC  and
+  that's great.
+
+  I personally use TwinVNC on its own screen with the title bar in order to have
+  the feeling that I'm still using MorphOS. TwinVNC has changed my  user  habits
+  and allowed me to save money (buying an extra screen) and space (you  do  have
+  to put that additional screen somewhere), and  most  of  all,  it  renews  the
+  pleasure of using MorphOS.
+
+  What can I say more? Use it, you'll see  for  yourself!  And  do  think  about
+  clicking the Paypal link... Seg should appreciate that!"
+@endnode
+
+
+@node "Doc_About" "About..."
+@{b}@{u}Author/Coder@{uu}@{ub}
+
+    Sébastien Gréau (Seg)
+
+
+@{b}@{u}Graphical & Web designer@{uu}@{ub}
+
+    Christophe Delorme (Highlander)
+
+
+@{b}@{u}Internet@{uu}@{ub}
+
+    NickName: Seg
+    eMail: twinvnc@free.fr
+    Web: http://twinvnc.free.fr
+
+
+@{b}@{u}Greetings@{uu}@{ub}
+
+    Stéphane Guillard (sg2)  : OS4 port author
+    Nicolas Gressard (Niffo) : MorphOS port author
+
+
+@{b}@{u}Translation@{uu}@{ub}
+
+    Rafo                     : translator of the first English version of this doc.
+    Hans-Jörg Ottinger (Otti): Translator of the German documentation (hjo@freenet.de)
+                               (In case of mistakes, please contact me).
+    Javier de las Rivas      : Translator of the Spanish documentation (javierdlr@euskalnet.net)
+                               (If you have any questions/errors about the guide or the catalog, please contact me).
+    Samir Hawamdeh (Samo79)  : Translator of the Italian documentation
+    Uncleserb                : Translator of the English version
+    Deepl                    : Translator from version 0.92 (www.deepl.com)
+@endnode

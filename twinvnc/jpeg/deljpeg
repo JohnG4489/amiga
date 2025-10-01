@@ -1,0 +1,7 @@
+delete #?.o
+delete #?.lnk
+delete #?.tmp
+delete #?.lib
+delete #?.a
+mkmk FORCE TARGET dummy
+delete smakefile.info

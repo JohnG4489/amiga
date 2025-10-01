@@ -1,0 +1,6 @@
+delete #?.o
+delete #?.lnk
+delete #?.tmp
+delete #?.lib
+delete #?.a
+delete smakefile.info

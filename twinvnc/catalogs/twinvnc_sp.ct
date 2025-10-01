@@ -1,0 +1,639 @@
+## version $VER: twinvnc.catalog 1.1 (14.3.2007)
+## codeset 0
+## language español
+;
+;
+LOC_CONNECTION_TITLE
+TwinVNC: Conexión
+; Connexion
+;
+LOC_CONNECTION_HOST
+Anfitrión:
+; Hôte
+;
+LOC_CONNECTION_PASSWORD
+Contraseña:
+; M. de passe
+;
+LOC_CONNECTION_VIEWONLY
+Sólo _ver
+; _Visualiser
+;
+LOC_CONNECTION_CONNECT
+Conectar
+; Connecter
+;
+LOC_CONNECTION_OPTIONS
+_Opciones
+; _Options
+;
+LOC_CONNECTION_QUIT
+Salir
+; Quitter
+;
+LOC_TOOLBAR_OPTIONS
+Opciones
+; Options
+;
+LOC_TOOLBAR_INFO
+Información
+; Informations
+;
+LOC_TOOLBAR_FULLSCREEN
+Pantalla<->Ventana
+; Basculer en plein écran ou en fenêtre
+;
+LOC_TOOLBAR_REFRESH
+Refrescar
+; Raffraîchir l'affichage
+;
+LOC_TOOLBAR_TRANSFER
+Transferir
+; Transfert de fichiers
+;
+LOC_TOOLBAR_RECONNECT
+Reconectar
+; Reconnecter
+;
+LOC_TOOLBAR_ICONIFY
+Iconificar
+; Iconifier
+;
+LOC_TOOLBAR_QUIT
+Salir
+; Quitter TwinVNC
+;
+LOC_TOOLBAR_ABOUT
+Acerca de TwinVNC
+; A propos de TwinVNC
+;
+LOC_STATUS_TITLE
+TwinVNC: Estado
+; Statut de connexion...
+;
+LOC_STATUS_CANCEL
+Cancelar
+; Annuler
+;
+LOC_STATUS_TEXT_CONNECTION
+Conectando al anfitrión...
+; Connexion sur l'hôte:
+;
+LOC_STATUS_TEXT_NEGOTIATION
+Negociando protocolo...
+; Négociation du protocole
+;
+LOC_STATUS_TEXT_AUTHENTIFICATION
+Autentificación/Contraseña...
+; Authentification/Mot de passe
+;
+LOC_STATUS_TEXT_CLIENT_INIT
+Inicializando cliente...
+; Initialisation du client
+;
+LOC_STATUS_TEXT_WAIT_SERVER_INIT
+Inicializando servidor...
+; Attente de l'initialisation du serveur
+;
+LOC_STATUS_TEXT_SEND_DISPLAY_PARAM
+Enviando parámetros de visualización...
+; Envoi des paramètres d'affichage
+;
+LOC_OPTIONS_TITLE
+TwinVNC: Opciones
+; Options
+;
+LOC_OPTIONS_CODECS
+Codecs
+; Codecs
+;
+LOC_OPTIONS_MISC
+Misc.
+; Divers
+;
+LOC_OPTIONS_DISPLAY
+Visual.
+; Affichage
+;
+LOC_OPTIONS_CUSTOMIZE
+Personalizar
+; Personnaliser
+;
+LOC_OPTIONS_ABOUT
+Acerca de
+; A propos de
+;
+LOC_OPTIONS_SAVEAS
+Guardar como
+; Sauver sous
+;
+LOC_OPTIONS_USE
+Usar
+; Utiliser
+;
+LOC_OPTIONS_CANCEL
+Cancelar
+; Annuler
+;
+LOC_OPTIONS_P1_REMOTEDISPLAY
+Visualización Remota
+; Affichage distant
+;
+LOC_OPTIONS_P1_COLORS
+Colores
+; Couleurs
+;
+LOC_OPTIONS_P1_SCALE
+Escala
+; Echelle
+;
+LOC_OPTIONS_P1_ENCODERS
+Codificadores
+; Encodeurs
+;
+LOC_OPTIONS_P1_ISCOPYRECT
+Usar 'CopyRect()'
+; Utiliser CopyRect
+;
+LOC_OPTIONS_P1_ISLOCALCURSOR
+Cursor del ratón local
+; Gestion locale du curseur souris
+;
+LOC_OPTIONS_P1_ENCODERSPARAMETERS
+Parámetros Codificadores
+; Paramètres des encodeurs
+;
+LOC_OPTIONS_P1_ISJPEG
+JPEG
+; Jpeg
+;
+LOC_OPTIONS_P1_QUALITY
+Calidad
+; Qualité
+;
+LOC_OPTIONS_P1_ISZLIB
+ZLib
+; ZLib
+;
+LOC_OPTIONS_P1_COMPRESSION
+Compresión
+; Compression
+;
+LOC_OPTIONS_P1_ENCODER
+Codif.
+; Encodeur
+;
+LOC_OPTIONS_P2_STARTUP
+Inicio
+; Démarrage
+;
+LOC_OPTIONS_P2_ISSHARED
+Control remoto compartido
+; Accès distant partagé
+;
+LOC_OPTIONS_P2_ISICONIFY
+Iconificar al inicio
+; Iconifier au démarrage
+;
+LOC_OPTIONS_P2_MOUSEKEYBOARD
+Ratón/Teclado
+; Souris/Clavier
+;
+LOC_OPTIONS_P2_ISVIEWONLY
+Bloquear ratón/teclado (sólo ver)
+; Verrouiller souris et clavier
+;
+LOC_OPTIONS_P2_ISNOCLIPBOARD
+No usar portapapeles
+; Pas de copier/coller
+;
+LOC_OPTIONS_P2_ISKBEMUL
+Emular teclas (Inicio/Fin/RePág/..)
+; Emuler certaines touches (ex: Begin/End/Page Down)
+;
+LOC_OPTIONS_P2_ISNOLAMIGAKEY
+Desactivar tecla AMIGA izquierda
+; Désactiver la touche Amiga Gauche
+;
+LOC_OPTIONS_P2_ISREPORTMOUSE
+Mostrar movimiento ratón del servidor
+; Reporter les mouvements souris du serveur
+;
+LOC_OPTIONS_P2_SPECIAL
+Especial
+; Spécial
+;
+LOC_OPTIONS_P2_ISFLAG
+No esperar a clavija (experimental)
+; Pas d'attente socket (expérimental)
+;
+LOC_OPTIONS_P3_LOCALDISPLAY
+Visualización Local
+; Affichage local
+;
+LOC_OPTIONS_P3_DISPLAY
+Modo
+; Affichage
+;
+LOC_OPTIONS_P3_ISSHOWTOOLBAR
+Mostrar barra de herramientas
+; Montrer la barre d'outil
+;
+LOC_OPTIONS_P3_ISSHOWCURSOR
+Mostrar cursor del ratón de AMIGA
+; Montrer le curseur souris
+;
+LOC_OPTIONS_P3_VIEWPARAMETERS
+Parámetros de Visualización
+; Paramètres de la vue
+;
+LOC_OPTIONS_P3_VIEW
+Vista
+; Vue
+;
+LOC_OPTIONS_P3_ISOVERLAY
+Superponer (overlay)
+; Utiliser l'overlay
+;
+LOC_OPTIONS_P3_OVERLAYTHRESHOLD
+% (Umbral)
+; % (Seuil)
+;
+LOC_OPTIONS_P3_SCREENPARAMETERS
+Parámetros de la Pantalla
+; Paramètres de l'écran
+;
+LOC_OPTIONS_P3_TYPE
+Tipo
+; Type
+;
+LOC_OPTIONS_P3_ISSHOWSCREENBAR
+Mostrar barra de título de pantalla
+; Afficher la barre d'écran
+;
+LOC_OPTIONS_P3_SCREEN
+Pantalla
+; Ecran
+;
+LOC_OPTIONS_P3_SELECT
+Elegir...
+; Choisir
+;
+LOC_OPTIONS_P4_GUI
+Interfaz Gráfico
+; Interface graphique
+;
+LOC_OPTIONS_P4_STYLE
+Estilo
+; Style
+;
+LOC_OPTIONS_P4_FONT
+T. de letra
+; Font
+;
+LOC_OPTIONS_P4_SELECT
+Elegir...
+; Choisir
+;
+LOC_OPTIONS_P4_MISC
+Miscelánea
+; Divers
+;
+LOC_OPTIONS_P4_ICON
+Icono:
+; Icône
+;
+LOC_OPTIONS_P4_SEARCH
+Buscar
+; Chercher
+;
+LOC_OPTIONS_P5_AUTHORS
+Autores
+; Auteurs
+;
+LOC_OPTIONS_P5_COMPILATION
+Versiones
+; Compilation
+;
+LOC_OPTIONS_P5_THANKS
+Agradecimientos
+; Et merci à...
+;
+LOC_OPTIONS_COLORS_SERVER
+Como el servidor
+; Identique au serveur
+;
+LOC_OPTIONS_COLORS_8
+8 colores
+; 8 couleurs
+;
+LOC_OPTIONS_COLORS_64
+64 colores
+; 64 couleurs
+;
+LOC_OPTIONS_COLORS_256
+256 colores
+; 256 couleurs
+;
+LOC_OPTIONS_COLORS_65K
+16bits
+; 65536 couleurs
+;
+LOC_OPTIONS_COLORS_16M
+24/32bits
+; 16M couleurs
+;
+LOC_OPTIONS_DISPLAY_WINDOW
+Ventana
+; Fenêtre
+;
+LOC_OPTIONS_DISPLAY_FULLSCREEN
+Pantalla
+; Plein écran
+;
+LOC_OPTIONS_VIEW_NORMAL
+Normal
+; Normale
+;
+LOC_OPTIONS_VIEW_SCALED
+Escalada
+; Retaillée
+;
+LOC_OPTIONS_TYPE_AUTODETECT
+Autodetectar
+; Auto detecter le mode d'écran
+;
+LOC_OPTIONS_TYPE_ASK
+Preguntar
+; Demander le mode d'écran
+;
+LOC_OPTIONS_TYPE_USEMODEID
+El mejor posible
+; Utiliser le mode d'écran suivant
+;
+LOC_OPTIONS_STYLE_GADTOOLS
+Gadtools (OS3.1)
+; Gadtools (cf. OS3.1)
+;
+LOC_OPTIONS_STYLE_REACTION
+ReAction (OS3.5+)
+; Reaction (cf. OS3.5+)
+;
+LOC_OPTIONS_STYLE_MUI
+MUI
+; Magic User Interface
+;
+LOC_MSG_SOCKET_ERROR
+Error en conexión.
+; Erreur réseau
+;
+LOC_MSG_DISCONNECTED
+Desconectado.
+; Déconnecté
+;
+LOC_MSG_PROTOCOL_NEGOTIATION_FAILED
+Fallo al negociar protocolo.
+; Echec de la négociation de protocole
+;
+LOC_MSG_INVALID_AUTHENTIFICATION
+Autentificación no válida.
+; Authentification invalide
+;
+LOC_MSG_AUTHENTIFICATION_FAILED
+Fallo en autentificación.
+; Echec de l'authentification
+;
+LOC_MSG_AUTHENTIFICATION_TOOMANY
+Demasidas conexiones establecidas.
+; Trop d'utilisateurs connectés
+;
+LOC_MSG_CORRUPTED_DATA
+Datos recibidos corruptos.
+; Réception de données corrompues
+;
+LOC_MSG_NOT_ENOUGH_MEMORY
+Memoria insuficiente.
+; Pas assez de mémoire vive
+;
+LOC_MSG_CONNECTION_ERROR
+Anfitrión desconocido.
+; Serveur hôte inconnu
+;
+LOC_MSG_NO_BSDSOCKET_LIBRARY
+Falta pila TCP/IP.
+; Pile TCP/IP non présente
+;
+LOC_MSG_TITLE
+TwinVNC: ERROR
+; Erreur
+;
+LOC_MSG_BAD_SCREEN_MODEID
+Tipo de pantalla no válida.
+; Mode d'écran invalide
+;
+LOC_MSG_BAD_SCREEN_DEPTH
+No se ha podido abrir pantalla con\n\
+la cantidad de colores deseados.
+; Impossible d'ouvrir l'écran avec la profondeur de couleur souhaitée
+;
+LOC_MSG_CANT_OPEN_SCREEN
+No se ha podido abrir pantalla.
+; Impossible d'ouvrir l'écran
+;
+LOC_MSG_NOT_ENOUGH_VIDEO_MEMORY
+Memoria de video insuficiente.
+; Pas assez de mémoire vidéo
+;
+LOC_INFO_IDENTITY
+Servidor
+; Server identity
+;
+LOC_INFO_HOST
+Anfitrión
+; Host
+;
+LOC_INFO_IP
+IP:Puerto
+; IP/Port
+;
+LOC_INFO_NAME
+Nombre
+; Name
+;
+LOC_INFO_PIXELFORMAT
+Formato Pixels del Servidor
+; Server pixel format
+;
+LOC_INFO_BITPERPIXEL
+Bits/pixel
+; Bit per pixel
+;
+LOC_INFO_DEPTH
+Colores (bits)
+; Depth
+;
+LOC_INFO_BIGENDIAN
+Big endian
+; Big endian
+;
+LOC_INFO_TRUECOLOR
+Color verdadero
+; True color
+;
+LOC_INFO_CLOSE
+Cerrar
+; Close
+;
+LOC_INFO_TITLE
+Información
+; Information
+;
+LOC_INFO_RGBMAX
+RGB (máximos)
+; RGB max
+;
+LOC_INFO_RGBSHIFT
+RGB (desplazar)
+; RGB shift
+;
+LOC_INFO_PROTOCOL
+Protocolo
+; Protocol
+;
+LOC_OPTIONS_TEST
+Probar
+; Test
+;
+LOC_OPTIONS_P3_ISSMOOTH
+Suavizar
+; Smooth
+;
+LOC_OPTIONS_DISPLAY_NODISPLAY
+P. sin refresco
+; No display
+;
+LOC_OPTIONS_SAVEAS_TITLE
+Guardar icono de configuración como
+; Save current configuration
+;
+LOC_SAVEAS_INFO_TITLE
+TwinVNC: Mensaje
+; Write configuration message...
+;
+LOC_SAVEAS_INFO_MESSAGE
+El icono de configuración\n\
+\"%s\" ya existe.
+; The "%s" file already exists
+;
+LOC_SAVEAS_INFO_BUTTONS
+Sobrescribir|Cancelar
+; Erase it|Cancel
+;
+LOC_SAVEAS_ERROR_TITLE
+TwinVNC: ERROR
+; Write configuration error...
+;
+LOC_SAVEAS_ERROR_BUTTONS
+Aceptar
+; Ok
+;
+LOC_BOOLEAN_YES
+Sí
+;Oui
+;
+LOC_BOOLEAN_NO
+No
+;Non
+;
+LOC_FT_TITLE
+Transferencia de ficheros
+;Transfert de fichiers
+;
+LOC_FT_LOCALFS_REMOTEFS
+Ficheros en local / Ficheros en remoto
+;Fichiers en local / Fichiers sur le serveur distant
+;
+LOC_FT_ROOT
+-
+;Racine
+;
+LOC_FT_MKDIR
+-
+;Cré Dir
+;
+LOC_FT_RENAME
+-
+;Ren
+;
+LOC_FT_DELETE
+-
+;Suppr
+;
+LOC_FT_TOOLTIP_ROOT
+Volver a la raíz
+;Revenir à la racine
+;
+LOC_FT_TOOLTIP_MKDIR
+Crear un nuevo directorio
+;Créer un nouveau répertoire
+;
+LOC_FT_TOOLTIP_RENAME
+Renombrar un fichero
+;Renommer un fichier
+;
+LOC_FT_TOOLTIP_DELETE
+Borrar un fichero
+;Supprimer un fichier
+;
+LOC_FT_TOOLTIP_PARENT
+Volver al directorio precedente
+;Revenir au répertoire précédent
+;
+LOC_FT_TOOLTIP_REFRESH
+Actualizar la lista
+;Rafraîchir la liste
+;
+LOC_FT_TOOLTIP_UPLOAD
+Enviar al servidor 
+;Envoyer sur le serveur
+;
+LOC_FT_TOOLTIP_DOWNLOAD
+Descargar localmente
+;Télécharger en local
+;
+LOC_FT_HISTORY
+Historia
+;Historique
+;
+LOC_FT_ABORT
+Stop
+;Arrêter
+;
+LOC_FT_HIDE
+Ocultar
+;Cacher
+;
+LOC_FT_MES_KILO
+KB
+;Ko
+;
+LOC_FT_MES_MEGA
+MB
+;Mo
+;
+LOC_FT_MES_GIGA
+GB
+;Go
+;
+LOC_FT_FOLDER
+Directorio
+;Dossier
+;
+LOC_MSG_TIMEOUT
+Tiempo de conexión excedido
+;LOC_MSG_TIMEOUT
+;
+LOC_OPTIONS_P4_CONTROLKEY
+Tecla de control.
+;Touche Ctrl.
+;

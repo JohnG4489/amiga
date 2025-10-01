@@ -1,0 +1,6 @@
+delete #?.o
+delete #?.lnk
+delete #?.tmp
+delete TwinVNC
+mkmk FORCE TARGET TwinVNC
+delete smakefile.info

@@ -1,0 +1,11 @@
+cd jpeg/
+execute deljpeg
+smake
+
+cd /zlib/
+execute delzlib
+smake
+
+cd /
+execute deltwin
+smake

@@ -1,0 +1,637 @@
+## version $VER: TwinVNC.catalog 1.1 (19.03.2007)
+## codeset 0
+## language italiano
+## author Samir Hawamdeh (http://www.betatesting.it/backforthefuture/)
+;
+LOC_CONNECTION_TITLE
+Connessione
+; Connection
+;
+LOC_CONNECTION_HOST
+Host
+; Host
+;
+LOC_CONNECTION_PASSWORD
+Password
+; Password
+;
+LOC_CONNECTION_VIEWONLY
+_Visualizza
+; _View only
+;
+LOC_CONNECTION_CONNECT
+Connetti
+; Connect
+;
+LOC_CONNECTION_OPTIONS
+_Opzioni
+; _Options
+;
+LOC_CONNECTION_QUIT
+Chiudi
+; Quit
+;
+LOC_TOOLBAR_OPTIONS
+Opzioni
+; Options
+;
+LOC_TOOLBAR_INFO
+Informazioni
+; Information
+;
+LOC_TOOLBAR_FULLSCREEN
+Passa a tutto schermo o finestra
+; Switch to full screen or window
+;
+LOC_TOOLBAR_REFRESH
+Aggiorna display
+; Refresh display
+;
+LOC_TOOLBAR_TRANSFER
+Trasferimento file
+; File transfer
+;
+LOC_TOOLBAR_RECONNECT
+Riconnetti
+; Reconnect
+;
+LOC_TOOLBAR_ICONIFY
+Iconifica
+; Iconify
+;
+LOC_TOOLBAR_QUIT
+Esci
+; Exit
+;
+LOC_TOOLBAR_ABOUT
+Informazioni...
+; About...
+;
+LOC_STATUS_TITLE
+Stato connessione...
+; Connection status...
+;
+LOC_STATUS_CANCEL
+Annulla
+; Cancel
+;
+LOC_STATUS_TEXT_CONNECTION
+Connesso all'Host:
+; Connect to Host:
+;
+LOC_STATUS_TEXT_NEGOTIATION
+Protocollo di negoziazione
+; Protocol negotiation
+;
+LOC_STATUS_TEXT_AUTHENTIFICATION
+Autentificazione/Password
+; Authentification/Password
+;
+LOC_STATUS_TEXT_CLIENT_INIT
+Inizializzazione client
+; Client initialisation
+;
+LOC_STATUS_TEXT_WAIT_SERVER_INIT
+Attendi l'inizializzazione del server
+; Waiting for server initialisation
+;
+LOC_STATUS_TEXT_SEND_DISPLAY_PARAM
+Invio parametri del display
+; Sending display parameters
+;
+LOC_OPTIONS_TITLE
+Opzioni
+; Options
+;
+LOC_OPTIONS_CODECS
+Codec
+; Codecs
+;
+LOC_OPTIONS_MISC
+Varie
+; Misc
+;
+LOC_OPTIONS_DISPLAY
+Display
+; Display
+;
+LOC_OPTIONS_CUSTOMIZE
+Customizza
+; Customize
+;
+LOC_OPTIONS_ABOUT
+Informazioni
+; About
+;
+LOC_OPTIONS_SAVEAS
+Salva come
+; Save as
+;
+LOC_OPTIONS_USE
+Usa
+; Use
+;
+LOC_OPTIONS_CANCEL
+Annulla
+; Cancel
+;
+LOC_OPTIONS_P1_REMOTEDISPLAY
+Display remoto
+; Remote display
+;
+LOC_OPTIONS_P1_COLORS
+Colori
+; Colors
+;
+LOC_OPTIONS_P1_SCALE
+Scala
+; Scale
+;
+LOC_OPTIONS_P1_ENCODERS
+Encoder
+; Encoders
+;
+LOC_OPTIONS_P1_ISCOPYRECT
+Usa CopyRect
+; Use CopyRect
+;
+LOC_OPTIONS_P1_ISLOCALCURSOR
+Usa cursore del mouse locale
+; Use local mouse cursor
+;
+LOC_OPTIONS_P1_ENCODERSPARAMETERS
+Parametri encoder
+; Encoder parameters
+;
+LOC_OPTIONS_P1_ISJPEG
+Jpeg
+; Jpeg
+;
+LOC_OPTIONS_P1_QUALITY
+Qualità
+; Quality
+;
+LOC_OPTIONS_P1_ISZLIB
+ZLib
+; ZLib
+;
+LOC_OPTIONS_P1_COMPRESSION
+Compressione
+; Compression
+;
+LOC_OPTIONS_P1_ENCODER
+Encoder
+; Encoder
+;
+LOC_OPTIONS_P2_STARTUP
+StartUp
+; Startup
+;
+LOC_OPTIONS_P2_ISSHARED
+Condividi controllo remoto
+; Shared remote control
+;
+LOC_OPTIONS_P2_ISICONIFY
+Iconifica all'avvio
+; Iconify on startup
+;
+LOC_OPTIONS_P2_MOUSEKEYBOARD
+Mouse/Tastiera
+; Mouse/Keyboard
+;
+LOC_OPTIONS_P2_ISVIEWONLY
+Input bloccati (Solo Visualizzazione)
+; Inputs locked (View Only)
+;
+LOC_OPTIONS_P2_ISNOCLIPBOARD
+No Clipboard
+; No Clipboard
+;
+LOC_OPTIONS_P2_ISKBEMUL
+Emula alcuni tasti (es: Inizio/Fine/Pag. giù)
+; Emulate some keys (ie: Begin/End/Page Down)
+;
+LOC_OPTIONS_P2_ISNOLAMIGAKEY
+Disattiva tasto "Amiga sinistra"
+; Disable Left Amiga key
+;
+LOC_OPTIONS_P2_ISREPORTMOUSE
+Segnala il movimento del mouse al server
+; Report mouse move from server
+;
+LOC_OPTIONS_P2_SPECIAL
+Speciale
+; Special
+;
+LOC_OPTIONS_P2_ISFLAG
+Nessun Flag d'attesa (sperimentale)
+; No wait Flag (experimental)
+;
+LOC_OPTIONS_P3_LOCALDISPLAY
+Display locale
+; Local display
+;
+LOC_OPTIONS_P3_DISPLAY
+Display
+; Display
+;
+LOC_OPTIONS_P3_ISSHOWTOOLBAR
+Visualizza barra strumenti
+; Show Toolbar
+;
+LOC_OPTIONS_P3_ISSHOWCURSOR
+Mostra il cursore del mouse di AmigaOS
+; Show Amiga mouse cursor
+;
+LOC_OPTIONS_P3_VIEWPARAMETERS
+Visualizza parametri
+; View parameters
+;
+LOC_OPTIONS_P3_VIEW
+Visualizza
+; View
+;
+LOC_OPTIONS_P3_ISOVERLAY
+Usa Overlay
+; Use overlay
+;
+LOC_OPTIONS_P3_OVERLAYTHRESHOLD
+% (Soglia)
+; % (Threshold)
+;
+LOC_OPTIONS_P3_SCREENPARAMETERS
+Parametri schermo
+; Screen parameters
+;
+LOC_OPTIONS_P3_TYPE
+Tipo
+; Type
+;
+LOC_OPTIONS_P3_ISSHOWSCREENBAR
+Mostra titolo schermo
+; Show screen title
+;
+LOC_OPTIONS_P3_SCREEN
+Schermo
+; Screen
+;
+LOC_OPTIONS_P3_SELECT
+Seleziona
+; Select
+;
+LOC_OPTIONS_P4_GUI
+Interfaccia Grafica Utente (GUI)
+; Graphic user interface
+;
+LOC_OPTIONS_P4_STYLE
+Stile
+; Style
+;
+LOC_OPTIONS_P4_FONT
+Font
+; Font
+;
+LOC_OPTIONS_P4_SELECT
+Seleziona
+; Select
+;
+LOC_OPTIONS_P4_MISC
+Varie
+; Miscellaneous
+;
+LOC_OPTIONS_P4_ICON
+Icona
+; Icon
+;
+LOC_OPTIONS_P4_SEARCH
+Cerca
+; Search
+;
+LOC_OPTIONS_P5_AUTHORS
+Autori
+; Authors
+;
+LOC_OPTIONS_P5_COMPILATION
+Compilazione
+; Compilation
+;
+LOC_OPTIONS_P5_THANKS
+E un ringraziamento va anche a...
+; And thanks to...
+;
+LOC_OPTIONS_COLORS_SERVER
+Tipo server
+; Like server
+;
+LOC_OPTIONS_COLORS_8
+8 colori
+; 8 colors
+;
+LOC_OPTIONS_COLORS_64
+64 colori
+; 64 colors
+;
+LOC_OPTIONS_COLORS_256
+256 colori
+; 256 colors
+;
+LOC_OPTIONS_COLORS_65K
+65536 colori
+; 65536 colors
+;
+LOC_OPTIONS_COLORS_16M
+16,8 milioni di colori
+; 16M colors
+;
+LOC_OPTIONS_DISPLAY_WINDOW
+Finestra
+; Window
+;
+LOC_OPTIONS_DISPLAY_FULLSCREEN
+Tutto schermo
+; Full screen
+;
+LOC_OPTIONS_VIEW_NORMAL
+Normale
+; Normal
+;
+LOC_OPTIONS_VIEW_SCALED
+Scalato
+; Scaled
+;
+LOC_OPTIONS_TYPE_AUTODETECT
+Autorileva modalità video
+; Auto-detect screen mode
+;
+LOC_OPTIONS_TYPE_ASK
+Chiedi modalità video
+; Ask screen mode
+;
+LOC_OPTIONS_TYPE_USEMODEID
+Usa una specifica modalità video
+;Use specified screen mode
+;
+LOC_OPTIONS_STYLE_GADTOOLS
+Gadtools (Tipo AmigaOS 3.1)
+; Gadtools (Like OS3.1)
+;
+LOC_OPTIONS_STYLE_REACTION
+Reaction (Tipo AmigaOS 3.5+)
+; Reaction (Like OS3.5+)
+;
+LOC_OPTIONS_STYLE_MUI
+Magic User Interface (MUI)
+; Magic User Interface
+;
+LOC_MSG_SOCKET_ERROR
+Errore di rete
+; Network error
+;
+LOC_MSG_DISCONNECTED
+Disconnesso
+; Disconnected
+;
+LOC_MSG_PROTOCOL_NEGOTIATION_FAILED
+Protocollo di negoziazione fallito
+; Protocol negotiation failed
+;
+LOC_MSG_INVALID_AUTHENTIFICATION
+Autentificazione non valida
+; Invalid authentification
+;
+LOC_MSG_AUTHENTIFICATION_FAILED
+Autentificazione fallita
+; Authentification failed
+;
+LOC_MSG_AUTHENTIFICATION_TOOMANY
+Ci sono troppi utenti connessi
+; Too many users connected
+;
+LOC_MSG_CORRUPTED_DATA
+Dati corrotti
+; Corrupted data
+;
+LOC_MSG_NOT_ENOUGH_MEMORY
+Memoria insufficiente
+; Not enough memory
+;
+LOC_MSG_CONNECTION_ERROR
+Server Host sconosciuto
+;Unknown host server
+;
+LOC_MSG_NO_BSDSOCKET_LIBRARY
+Stack TCP/IP non trovato
+; TCP/IP stack not found
+;
+LOC_MSG_TITLE
+Errore
+; Error
+;
+LOC_MSG_BAD_SCREEN_MODEID
+Modalità video errata
+; Bad screen mode
+;
+LOC_MSG_BAD_SCREEN_DEPTH
+Profondità video errata
+; Bad screen depth
+;
+LOC_MSG_CANT_OPEN_SCREEN
+Impossibile aprire schermo
+; Cannot open screen
+;
+LOC_MSG_NOT_ENOUGH_VIDEO_MEMORY
+Memoria video insufficiente
+; Not enough video memory
+;
+LOC_INFO_IDENTITY
+Identità server
+; Server identity
+;
+LOC_INFO_HOST
+Host
+; Host
+;
+LOC_INFO_IP
+IP/Porta
+; IP/Port
+;
+LOC_INFO_NAME
+Nome
+; Name
+;
+LOC_INFO_PIXELFORMAT
+Formato pixel server
+; Server pixel format
+;
+LOC_INFO_BITPERPIXEL
+Bit per pixel
+; Bit per pixel
+;
+LOC_INFO_DEPTH
+Profondità
+; Depth
+;
+LOC_INFO_BIGENDIAN
+Big endian
+; Big endian
+;
+LOC_INFO_TRUECOLOR
+True color
+; True color
+;
+LOC_INFO_CLOSE
+Chiudi
+; Close
+;
+LOC_INFO_TITLE
+Informazioni
+; Information
+;
+LOC_INFO_RGBMAX
+RGB Max
+;RGB max
+;
+LOC_INFO_RGBSHIFT
+RGB shift
+;RGB shift
+;
+LOC_INFO_PROTOCOL
+Protocollo
+; Protocol
+;
+LOC_OPTIONS_TEST
+Test
+; Test
+;
+LOC_OPTIONS_P3_ISSMOOTH
+Smooth
+; Smooth
+;
+LOC_OPTIONS_DISPLAY_NODISPLAY
+No display
+; No display
+;
+LOC_OPTIONS_SAVEAS_TITLE
+Salva la corrente configurazione
+; Save current configuration
+;
+LOC_SAVEAS_INFO_TITLE
+Scrivi messaggio di configurazione...
+; Write configuration message...
+;
+LOC_SAVEAS_INFO_MESSAGE
+Il file "%s" è già esistente
+; The "%s" file already exists
+;
+LOC_SAVEAS_INFO_BUTTONS
+Cancella|Annulla
+; Erase it|Cancel
+;
+LOC_SAVEAS_ERROR_TITLE
+Scrivi errore di configurazione...
+; Write configuration error...
+;
+LOC_SAVEAS_ERROR_BUTTONS
+Ok
+; Ok
+;
+LOC_BOOLEAN_YES
+Sì
+;Oui
+;
+LOC_BOOLEAN_NO
+No
+;Non
+;
+LOC_FT_TITLE
+Trasferimento di file
+;Transfert de fichiers
+;
+LOC_FT_LOCALFS_REMOTEFS
+File su server locale / File su server remoto
+;Fichiers en local / Fichiers sur le serveur distant
+;
+LOC_FT_ROOT
+-
+;Racine
+;
+LOC_FT_MKDIR
+-
+;Cré Dir
+;
+LOC_FT_RENAME
+-
+;Ren
+;
+LOC_FT_DELETE
+-
+;Suppr
+;
+LOC_FT_TOOLTIP_ROOT
+Ritornare alla radice
+;Revenir à la racine
+;
+LOC_FT_TOOLTIP_MKDIR
+Creare una nuova cartella
+;Créer un nouveau répertoire
+;
+LOC_FT_TOOLTIP_RENAME
+Rinominare un file
+;Renommer un fichier
+;
+LOC_FT_TOOLTIP_DELETE
+Cancellare un file
+;Supprimer un fichier
+;
+LOC_FT_TOOLTIP_PARENT
+Ritorno alla cartella precedente
+;Revenir au répertoire précédent
+;
+LOC_FT_TOOLTIP_REFRESH
+Aggiorna l'elenco
+;Rafraîchir la liste
+;
+LOC_FT_TOOLTIP_UPLOAD
+Inviare al server
+;Envoyer sur le serveur
+;
+LOC_FT_TOOLTIP_DOWNLOAD
+Scarica localmente
+;Télécharger en local
+;
+LOC_FT_HISTORY
+Storia
+;Historique
+;
+LOC_FT_ABORT
+Stop
+;Arrêter
+;
+LOC_FT_HIDE
+Nascondere
+;Cacher
+;
+LOC_FT_MES_KILO
+KB
+;Ko
+;
+LOC_FT_MES_MEGA
+MB
+;Mo
+;
+LOC_FT_MES_GIGA
+GB
+;Go
+;
+LOC_FT_FOLDER
+Cartella
+;Dossier
+;
+LOC_MSG_TIMEOUT
+Timeout della connessione
+;LOC_MSG_TIMEOUT
+;
+LOC_OPTIONS_P4_CONTROLKEY
+Tasto di controllo.
+;Touche Ctrl.
+;

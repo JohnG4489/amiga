@@ -1,0 +1,8 @@
+cd jpeg/
+execute deljpeg2
+
+cd /zlib/
+execute delzlib2
+
+cd /
+execute deltwin2

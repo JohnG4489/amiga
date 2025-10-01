@@ -1,0 +1,549 @@
+## version $VER: twinvnc.catalog 1.1 (22.03.2007) (Amiga-1251)
+## language russian
+## codeset 2104
+## chunk AUTH Translated by ATO-RUS: Vlad Vinogradov <vinnny@aport.ru>
+;-----------------------------------------------------------------------------
+;
+; CATALOG TRANSLATION REVISION HISTORY
+;
+; 1.0 (18.03.2007) <vvinogradov>
+; - first build (TwinVNC v0.7)
+;
+; 1.1 (22.03.2007) <vvinogradov>
+; - add strings from TwinVNC v0.8
+; - fixed some strings
+;
+;-----------------------------------------------------------------------------
+;
+LOC_CONNECTION_TITLE
+Подключение
+; Connection
+;
+LOC_CONNECTION_HOST
+Адрес
+; Host
+;
+LOC_CONNECTION_PASSWORD
+Пароль
+; Password
+;
+LOC_CONNECTION_VIEWONLY
+_Только просмотр
+; _View only
+;
+LOC_CONNECTION_CONNECT
+Подключиться
+; Connect
+;
+LOC_CONNECTION_OPTIONS
+_Параметры
+; _Options
+;
+LOC_CONNECTION_QUIT
+Выход
+; Quit
+;
+LOC_TOOLBAR_OPTIONS
+Настройки
+; Options
+;
+LOC_TOOLBAR_INFO
+Информация
+; Information
+;
+LOC_TOOLBAR_FULLSCREEN
+Переключиться в полноэкранный или оконный режим
+; Switch to full screen or window
+;
+LOC_TOOLBAR_REFRESH
+Обновить экран
+; Refresh display
+;
+LOC_TOOLBAR_TRANSFER
+Передать файл
+; File transfer
+;
+LOC_TOOLBAR_RECONNECT
+Переподключиться
+; Reconnect
+;
+LOC_TOOLBAR_ICONIFY
+Свернуть
+; Iconify
+;
+LOC_TOOLBAR_QUIT
+Выйти из TwinVNC
+; Exit
+;
+LOC_TOOLBAR_ABOUT
+О программе TwinVNC
+; About...
+;
+LOC_STATUS_TITLE
+Статус подключения...
+; Connection status...
+;
+LOC_STATUS_CANCEL
+Отмена
+; Cancel
+;
+LOC_STATUS_TEXT_CONNECTION
+Подключение к:
+; Connect to Host:
+;
+LOC_STATUS_TEXT_NEGOTIATION
+Установка протокола
+; Protocol negotiation
+;
+LOC_STATUS_TEXT_AUTHENTIFICATION
+Идентификация и проверка пароля
+; Authentification/Password
+;
+LOC_STATUS_TEXT_CLIENT_INIT
+Инициализация клиента
+; Client initialisation
+;
+LOC_STATUS_TEXT_WAIT_SERVER_INIT
+Ожидание инициализации сервера
+; Wait server initialisation
+;
+LOC_STATUS_TEXT_SEND_DISPLAY_PARAM
+Передача параметров отображения
+; Sending display parameters
+;
+LOC_OPTIONS_TITLE
+Параметры
+; Options
+;
+LOC_OPTIONS_CODECS
+Кодеки
+; Codecs
+;
+LOC_OPTIONS_MISC
+Разное
+; Misc
+;
+LOC_OPTIONS_DISPLAY
+Экран
+; Display
+;
+LOC_OPTIONS_CUSTOMIZE
+Интерфейс
+; Customize
+;
+LOC_OPTIONS_ABOUT
+О программе
+; About
+;
+LOC_OPTIONS_SAVEAS
+Сохранить
+; Save as
+;
+LOC_OPTIONS_USE
+Использовать
+; Use
+;
+LOC_OPTIONS_CANCEL
+Отмена
+; Cancel
+;
+LOC_OPTIONS_P1_REMOTEDISPLAY
+Удалённое отображение
+; Remote display
+;
+LOC_OPTIONS_P1_COLORS
+Палитра
+; Colors
+;
+LOC_OPTIONS_P1_SCALE
+Масштаб
+; Scale
+;
+LOC_OPTIONS_P1_ENCODERS
+Кодирование
+; Encoders
+;
+LOC_OPTIONS_P1_ISCOPYRECT
+Использовать CopyRect
+; Use CopyRect
+;
+LOC_OPTIONS_P1_ISLOCALCURSOR
+Использовать местный курсор мыши
+; Use local mouse cursor
+;
+LOC_OPTIONS_P1_ENCODERSPARAMETERS
+Параметры кодирования
+; Encoders parameters
+;
+LOC_OPTIONS_P1_ISJPEG
+Jpeg
+; Jpeg
+;
+LOC_OPTIONS_P1_QUALITY
+Качество
+; Quality
+;
+LOC_OPTIONS_P1_ISZLIB
+ZLib
+; ZLib
+;
+LOC_OPTIONS_P1_COMPRESSION
+Сжатие
+; Compression
+;
+LOC_OPTIONS_P1_ENCODER
+Кодировщик
+; Encoder
+;
+LOC_OPTIONS_P2_STARTUP
+При запуске
+; Startup
+;
+LOC_OPTIONS_P2_ISSHARED
+Разделяемое удалённое управление
+; Shared remote control
+;
+LOC_OPTIONS_P2_ISICONIFY
+Свернуть при старте
+; Iconify on startup
+;
+LOC_OPTIONS_P2_MOUSEKEYBOARD
+Мышь/Клавиатура
+; Mouse/Keyboard
+;
+LOC_OPTIONS_P2_ISVIEWONLY
+Блокировать ввод (только просмотр)
+; Inputs locked (View Only)
+;
+LOC_OPTIONS_P2_ISNOCLIPBOARD
+Без буфера обмена
+; No Clipboard
+;
+LOC_OPTIONS_P2_ISKBEMUL
+Имитировать некоторые клавиши (например: Begin/End/Page Down)
+; Emulate some keys (ie: Begin/End/Page Down)
+;
+LOC_OPTIONS_P2_ISNOLAMIGAKEY
+Выключить клавишу Left Amiga
+; Disable Left Amiga key
+;
+LOC_OPTIONS_P2_ISREPORTMOUSE
+Сообщать серверу о перемещении мыши
+; Report mouse move of the server
+;
+LOC_OPTIONS_P2_SPECIAL
+Специальное
+; Special
+;
+LOC_OPTIONS_P2_ISFLAG
+Не ждать Флага (пробное)
+; No wait Flag (experimental)
+;
+LOC_OPTIONS_P3_LOCALDISPLAY
+Отображение
+; Local display
+;
+LOC_OPTIONS_P3_DISPLAY
+Режим
+; Display
+;
+LOC_OPTIONS_P3_ISSHOWTOOLBAR
+Показывать панель инструментов
+; Show Toolbar
+;
+LOC_OPTIONS_P3_ISSHOWCURSOR
+Подменять курсор мыши на системный
+; Show Amiga mouse cursor
+;
+LOC_OPTIONS_P3_VIEWPARAMETERS
+Параметры отображения
+; View parameters
+;
+LOC_OPTIONS_P3_VIEW
+Режим
+; View
+;
+LOC_OPTIONS_P3_ISOVERLAY
+Использовать оверлей
+; Use overlay
+;
+LOC_OPTIONS_P3_OVERLAYTHRESHOLD
+% (порог)
+; % (Threshold)
+;
+LOC_OPTIONS_P3_SCREENPARAMETERS
+Параметры экрана
+; Screen parameters
+;
+LOC_OPTIONS_P3_TYPE
+Тип
+; Type
+;
+LOC_OPTIONS_P3_ISSHOWSCREENBAR
+Показывать заголовок экрана
+; Show screen title
+;
+LOC_OPTIONS_P3_SCREEN
+Экран
+; Screen
+;
+LOC_OPTIONS_P3_SELECT
+Выбор
+; Select
+;
+LOC_OPTIONS_P4_GUI
+Графический интерфейс
+; Graphic user interface
+;
+LOC_OPTIONS_P4_STYLE
+Стиль
+; Style
+;
+LOC_OPTIONS_P4_FONT
+Шрифт
+; Font
+;
+LOC_OPTIONS_P4_SELECT
+Выбор
+; Select
+;
+LOC_OPTIONS_P4_MISC
+Прочее
+; Miscellaneous
+;
+LOC_OPTIONS_P4_ICON
+Иконка
+; Icon
+;
+LOC_OPTIONS_P4_SEARCH
+Поиск
+; Search
+;
+LOC_OPTIONS_P5_AUTHORS
+Авторы
+; Authors
+;
+LOC_OPTIONS_P5_COMPILATION
+Компиляция
+; Compilation
+;
+LOC_OPTIONS_P5_THANKS
+Благодарности...
+; And thanks to...
+;
+LOC_OPTIONS_COLORS_SERVER
+Как на сервере
+; Like server
+;
+LOC_OPTIONS_COLORS_8
+8 цветов
+; 8 colors
+;
+LOC_OPTIONS_COLORS_64
+64 цвета
+; 64 colors
+;
+LOC_OPTIONS_COLORS_256
+256 цветов
+; 256 colors
+;
+LOC_OPTIONS_COLORS_65K
+65536 цветов
+; 65536 colors
+;
+LOC_OPTIONS_COLORS_16M
+16 млн цветов
+; 16M colors
+;
+LOC_OPTIONS_DISPLAY_WINDOW
+Оконный
+; Window
+;
+LOC_OPTIONS_DISPLAY_FULLSCREEN
+Полноэкранный
+; Full screen
+;
+LOC_OPTIONS_VIEW_NORMAL
+Обычный
+; Normal
+;
+LOC_OPTIONS_VIEW_SCALED
+Масштабируемый
+; Scaled
+;
+LOC_OPTIONS_TYPE_AUTODETECT
+Автоопределение режима экрана
+; Auto-detect screen mode
+;
+LOC_OPTIONS_TYPE_ASK
+Запрашивать экранное разрешение
+; Ask screen mode
+;
+LOC_OPTIONS_TYPE_USEMODEID
+Использовать заданный экран
+; Use specified screen mode
+;
+LOC_OPTIONS_STYLE_GADTOOLS
+Gadtools (как в OS3.1)
+; Gadtools (Like OS3.1)
+;
+LOC_OPTIONS_STYLE_REACTION
+Reaction (как в OS3.5+)
+; Reaction (Like OS3.5+)
+;
+LOC_OPTIONS_STYLE_MUI
+Magic User Interface
+; Magic User Interface
+;
+LOC_MSG_SOCKET_ERROR
+Ошибка сети
+; Network error
+;
+LOC_MSG_DISCONNECTED
+Рассоединение
+; Disconnected
+;
+LOC_MSG_PROTOCOL_NEGOTIATION_FAILED
+Ошибка установки протокола
+; Protocol negotiation failed
+;
+LOC_MSG_INVALID_AUTHENTIFICATION
+Неверная идентификация
+; Invalid authentification
+;
+LOC_MSG_AUTHENTIFICATION_FAILED
+Ошибка идентификации
+; Authentification failed
+;
+LOC_MSG_AUTHENTIFICATION_TOOMANY
+Слишком много подключенных пользователей
+; Too many users connected
+;
+LOC_MSG_CORRUPTED_DATA
+Получены повреждённые данные
+; Corrupted data
+;
+LOC_MSG_NOT_ENOUGH_MEMORY
+Не хватает оперативной памяти
+; Not enough memory
+;
+LOC_MSG_CONNECTION_ERROR
+Неизвестный адрес сервера
+; Unknown host server
+;
+LOC_MSG_NO_BSDSOCKET_LIBRARY
+TCP/IP стек не обнаружен
+; TCP/IP stack not found
+;
+LOC_MSG_TITLE
+Ошибка
+; Error
+;
+LOC_MSG_BAD_SCREEN_MODEID
+Неверный режим экрана
+; Bad screen mode
+;
+LOC_MSG_BAD_SCREEN_DEPTH
+Невозможно открыть экран с заданной глубиной палитры
+; Bad screen depth
+;
+LOC_MSG_CANT_OPEN_SCREEN
+Невозможно открыть экран
+; Cannot open screen
+;
+LOC_MSG_NOT_ENOUGH_VIDEO_MEMORY
+Не хватает видео-памяти
+; Not enough video memory
+;
+LOC_INFO_IDENTITY
+Идентификация сервера
+; Server identity
+;
+LOC_INFO_HOST
+Адрес
+; Host
+;
+LOC_INFO_IP
+IP/порт
+; IP/Port
+;
+LOC_INFO_NAME
+Название
+; Name
+;
+LOC_INFO_PIXELFORMAT
+Формат изображения на сервере
+; Server pixel format
+;
+LOC_INFO_BITPERPIXEL
+Бит на пиксел
+; Bit per pixel
+;
+LOC_INFO_DEPTH
+Глубина
+; Depth
+;
+LOC_INFO_BIGENDIAN
+Big endian
+; Big endian
+;
+LOC_INFO_TRUECOLOR
+True color
+; True color
+;
+LOC_INFO_CLOSE
+Закрыть
+; Close
+;
+LOC_INFO_TITLE
+Информация
+; Information
+;
+LOC_INFO_RGBMAX
+RGB max
+; RGB max
+;
+LOC_INFO_RGBSHIFT
+RGB shift
+; RGB shift
+;
+LOC_INFO_PROTOCOL
+Протокол
+; Protocol
+;
+LOC_OPTIONS_TEST
+Тест
+; Test
+;
+LOC_OPTIONS_P3_ISSMOOTH
+Сглаживание
+; Smooth
+;
+LOC_OPTIONS_DISPLAY_NODISPLAY
+Без отображения
+; No display
+;
+LOC_OPTIONS_SAVEAS_TITLE
+Сохранение текущей конфигурации
+; Save current configuration
+;
+LOC_SAVEAS_INFO_TITLE
+Сохранение конфигурации...
+; Write configuration message...
+;
+LOC_SAVEAS_INFO_MESSAGE
+Файл "%s" уже существует
+; The "%s" file already exists
+;
+LOC_SAVEAS_INFO_BUTTONS
+Стереть его|Отмена
+; Erase it|Cancel
+;
+LOC_SAVEAS_ERROR_TITLE
+Ошибка сохранения конфигурации...
+; Write configuration error...
+;
+LOC_SAVEAS_ERROR_BUTTONS
+Далее
+; Ok
+;

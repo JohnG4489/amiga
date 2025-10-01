@@ -1,0 +1,21 @@
+NAME    = TwinVNC.
+VERSION = 51.1
+TARGET  = $(NAME)
+
+CFLAGS  = -Wall -D__USE_INLINE__ -I/usr/local/amiga/ppc-amigaos/SDK/include_os4/include_add/ -I/usr/local/amiga/ppc-amigaos/SDK/include_os4/netinclude/ -Izlib/ -Ijpeg/ -D__USE_OLD_TIMEVAL__
+LDFLAGS = -Ljpeg -Lzlib -ljpeg -lzlib -lauto
+SRCS    = display.c system.c server.c gui.c \
+      gfxscale.c toolbar.c input.c gfxnormal.c gfxsmooth.c \
+      config.c general.c windowconnection.c windowstatus.c windowoptions.c windowinformation.c \
+      windowfiletransfer.c framebuffer.c decoding.c decoderzrle.c decoderzlibraw.c \
+      decodertight.c decoderrre.c decoderraw.c decoderhextile.c \
+      decodercursor.c decodercorre.c decodercopyrect.c d3des.c connect.c \
+      client.c auth.c main.c socket.c gfxoverlay.c twingadgetclass.c
+ASRCS   =
+
+all: $(TARGET)
+	ppc-amigaos-strip --strip-all -R .comment $(TARGET)
+#	cp $(TARGET) ../files
+
+include $(V)/usr/local/amiga/ppc-amigaos/SDK/rules.make
+

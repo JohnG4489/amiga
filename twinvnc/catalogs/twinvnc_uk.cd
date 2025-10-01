@@ -1,0 +1,403 @@
+; This Catalog Descriptor file (".cd")
+; Has been written using
+; ReCatIt Pro V1.00 (07.11.98) - By Fabio Rotondo.
+;
+LOC_CONNECTION_TITLE (//)
+Connection
+;
+LOC_CONNECTION_HOST (//)
+Host
+;
+LOC_CONNECTION_PASSWORD (//)
+Password
+;
+LOC_CONNECTION_VIEWONLY (//)
+_View only
+;
+LOC_CONNECTION_CONNECT (//)
+Connect
+;
+LOC_CONNECTION_OPTIONS (//)
+_Options
+;
+LOC_CONNECTION_QUIT (//)
+Quit
+;
+LOC_TOOLBAR_OPTIONS (//)
+Options
+;
+LOC_TOOLBAR_INFO (//)
+Information
+;
+LOC_TOOLBAR_FULLSCREEN (//)
+Switch to full screen or window
+;
+LOC_TOOLBAR_REFRESH (//)
+Refresh display
+;
+LOC_TOOLBAR_TRANSFER (//)
+File transfer
+;
+LOC_TOOLBAR_RECONNECT (//)
+Reconnect
+;
+LOC_TOOLBAR_ICONIFY (//)
+Iconify
+;
+LOC_TOOLBAR_QUIT (//)
+Exit
+;
+LOC_TOOLBAR_ABOUT (//)
+About...
+;
+LOC_STATUS_TITLE (//)
+Connection status...
+;
+LOC_STATUS_CANCEL (//)
+Cancel
+;
+LOC_STATUS_TEXT_CONNECTION (//)
+Connect to Host:
+;
+LOC_STATUS_TEXT_NEGOTIATION (//)
+Protocol negotiation
+;
+LOC_STATUS_TEXT_AUTHENTIFICATION (//)
+Authentification/Password
+;
+LOC_STATUS_TEXT_CLIENT_INIT (//)
+Client initialisation
+;
+LOC_STATUS_TEXT_WAIT_SERVER_INIT (//)
+Waiting for server initialisation
+;
+LOC_STATUS_TEXT_SEND_DISPLAY_PARAM (//)
+Sending display parameters
+;
+LOC_OPTIONS_TITLE (//)
+Options
+;
+LOC_OPTIONS_CODECS (//)
+Codecs
+;
+LOC_OPTIONS_MISC (//)
+Misc
+;
+LOC_OPTIONS_DISPLAY (//)
+Display
+;
+LOC_OPTIONS_CUSTOMIZE (//)
+Customize
+;
+LOC_OPTIONS_ABOUT (//)
+About
+;
+LOC_OPTIONS_SAVEAS (//)
+Save as
+;
+LOC_OPTIONS_USE (//)
+Use
+;
+LOC_OPTIONS_CANCEL (//)
+Cancel
+;
+LOC_OPTIONS_P1_REMOTEDISPLAY (//)
+Remote display
+;
+LOC_OPTIONS_P1_COLORS (//)
+Colors
+;
+LOC_OPTIONS_P1_SCALE (//)
+Scale
+;
+LOC_OPTIONS_P1_ENCODERS (//)
+Encoders
+;
+LOC_OPTIONS_P1_ISCOPYRECT (//)
+Use CopyRect
+;
+LOC_OPTIONS_P1_ISLOCALCURSOR (//)
+Use local mouse cursor
+;
+LOC_OPTIONS_P1_ENCODERSPARAMETERS (//)
+Encoder parameters
+;
+LOC_OPTIONS_P1_ISJPEG (//)
+Jpeg
+;
+LOC_OPTIONS_P1_QUALITY (//)
+Quality
+;
+LOC_OPTIONS_P1_ISZLIB (//)
+ZLib
+;
+LOC_OPTIONS_P1_COMPRESSION (//)
+Compression
+;
+LOC_OPTIONS_P1_ENCODER (//)
+Encoder
+;
+LOC_OPTIONS_P2_STARTUP (//)
+Startup
+;
+LOC_OPTIONS_P2_ISSHARED (//)
+Shared remote control
+;
+LOC_OPTIONS_P2_ISICONIFY (//)
+Iconify on startup
+;
+LOC_OPTIONS_P2_MOUSEKEYBOARD (//)
+Mouse/Keyboard
+;
+LOC_OPTIONS_P2_ISVIEWONLY (//)
+Inputs locked (View Only)
+;
+LOC_OPTIONS_P2_ISNOCLIPBOARD (//)
+No Clipboard
+;
+LOC_OPTIONS_P2_ISKBEMUL (//)
+Emulate some keys (ie: Begin/End/Page Down)
+;
+LOC_OPTIONS_P2_ISNOLAMIGAKEY (//)
+Disable Left Amiga key
+;
+LOC_OPTIONS_P2_ISREPORTMOUSE (//)
+Report mouse move from server
+;
+LOC_OPTIONS_P2_SPECIAL (//)
+Special
+;
+LOC_OPTIONS_P2_ISFLAG (//)
+No wait Flag (experimental)
+;
+LOC_OPTIONS_P3_LOCALDISPLAY (//)
+Local display
+;
+LOC_OPTIONS_P3_DISPLAY (//)
+Display
+;
+LOC_OPTIONS_P3_ISSHOWTOOLBAR (//)
+Show Toolbar
+;
+LOC_OPTIONS_P3_ISSHOWCURSOR (//)
+Show Amiga mouse cursor
+;
+LOC_OPTIONS_P3_VIEWPARAMETERS (//)
+View parameters
+;
+LOC_OPTIONS_P3_VIEW (//)
+View
+;
+LOC_OPTIONS_P3_ISOVERLAY (//)
+Use overlay
+;
+LOC_OPTIONS_P3_OVERLAYTHRESHOLD (//)
+% (Threshold)
+;
+LOC_OPTIONS_P3_SCREENPARAMETERS (//)
+Screen parameters
+;
+LOC_OPTIONS_P3_TYPE (//)
+Type
+;
+LOC_OPTIONS_P3_ISSHOWSCREENBAR (//)
+Show screen title
+;
+LOC_OPTIONS_P3_SCREEN (//)
+Screen
+;
+LOC_OPTIONS_P3_SELECT (//)
+Select
+;
+LOC_OPTIONS_P4_GUI (//)
+Graphic user interface
+;
+LOC_OPTIONS_P4_STYLE (//)
+Style
+;
+LOC_OPTIONS_P4_FONT (//)
+Font
+;
+LOC_OPTIONS_P4_SELECT (//)
+Select
+;
+LOC_OPTIONS_P4_MISC (//)
+Miscellaneous
+;
+LOC_OPTIONS_P4_ICON (//)
+Icon
+;
+LOC_OPTIONS_P4_SEARCH (//)
+Search
+;
+LOC_OPTIONS_P5_AUTHORS (//)
+Authors
+;
+LOC_OPTIONS_P5_COMPILATION (//)
+Compilation
+;
+LOC_OPTIONS_P5_THANKS (//)
+And thanks to...
+;
+LOC_OPTIONS_COLORS_SERVER (//)
+Like server
+;
+LOC_OPTIONS_COLORS_8 (//)
+8 colors
+;
+LOC_OPTIONS_COLORS_64 (//)
+64 colors
+;
+LOC_OPTIONS_COLORS_256 (//)
+256 colors
+;
+LOC_OPTIONS_COLORS_65K (//)
+65536 colors
+;
+LOC_OPTIONS_COLORS_16M (//)
+16M colors
+;
+LOC_OPTIONS_DISPLAY_WINDOW (//)
+Window
+;
+LOC_OPTIONS_DISPLAY_FULLSCREEN (//)
+Full screen
+;
+LOC_OPTIONS_VIEW_NORMAL (//)
+Normal
+;
+LOC_OPTIONS_VIEW_SCALED (//)
+Scaled
+;
+LOC_OPTIONS_TYPE_AUTODETECT (//)
+Auto-detect screen mode
+;
+LOC_OPTIONS_TYPE_ASK (//)
+Ask screen mode
+;
+LOC_OPTIONS_TYPE_USEMODEID (//)
+Use specified screen mode
+;
+LOC_OPTIONS_STYLE_GADTOOLS (//)
+Gadtools (Like OS3.1)
+;
+LOC_OPTIONS_STYLE_REACTION (//)
+Reaction (Like OS3.5+)
+;
+LOC_OPTIONS_STYLE_MUI (//)
+Magic User Interface
+;
+LOC_MSG_SOCKET_ERROR (//)
+Network error
+;
+LOC_MSG_DISCONNECTED (//)
+Disconnected
+;
+LOC_MSG_PROTOCOL_NEGOTIATION_FAILED (//)
+Protocol negotiation failed
+;
+LOC_MSG_INVALID_AUTHENTIFICATION (//)
+Invalid authentification
+;
+LOC_MSG_AUTHENTIFICATION_FAILED (//)
+Authentification failed
+;
+LOC_MSG_AUTHENTIFICATION_TOOMANY (//)
+Too many users connected
+;
+LOC_MSG_CORRUPTED_DATA (//)
+Corrupted data
+;
+LOC_MSG_NOT_ENOUGH_MEMORY (//)
+Not enough memory
+;
+LOC_MSG_CONNECTION_ERROR (//)
+Unknown host server
+;
+LOC_MSG_NO_BSDSOCKET_LIBRARY (//)
+TCP/IP stack not found
+;
+LOC_MSG_TITLE (//)
+Error
+;
+LOC_MSG_BAD_SCREEN_MODEID (//)
+Bad screen mode
+;
+LOC_MSG_BAD_SCREEN_DEPTH (//)
+Bad screen depth
+;
+LOC_MSG_CANT_OPEN_SCREEN (//)
+Cannot open screen
+;
+LOC_MSG_NOT_ENOUGH_VIDEO_MEMORY (//)
+Not enough video memory
+;
+LOC_INFO_IDENTITY (//)
+Server identity
+;
+LOC_INFO_HOST (//)
+Host
+;
+LOC_INFO_IP (//)
+IP/Port
+;
+LOC_INFO_NAME (//)
+Name
+;
+LOC_INFO_PIXELFORMAT (//)
+Server pixel format
+;
+LOC_INFO_BITPERPIXEL (//)
+Bit per pixel
+;
+LOC_INFO_DEPTH (//)
+Depth
+;
+LOC_INFO_BIGENDIAN (//)
+Big endian
+;
+LOC_INFO_TRUECOLOR (//)
+True color
+;
+LOC_INFO_CLOSE (//)
+Close
+;
+LOC_INFO_TITLE (//)
+Information
+;
+LOC_INFO_RGBMAX (//)
+RGB max
+;
+LOC_INFO_RGBSHIFT (//)
+RGB shift
+;
+LOC_INFO_PROTOCOL (//)
+Protocol
+;
+LOC_OPTIONS_TEST (//)
+Test
+;
+LOC_OPTIONS_P3_ISSMOOTH (//)
+Smooth
+;
+LOC_OPTIONS_DISPLAY_NODISPLAY (//)
+No display
+;
+LOC_OPTIONS_SAVEAS_TITLE (//)
+Save current configuration
+;
+LOC_SAVEAS_INFO_TITLE (//)
+Write configuration message...
+;
+LOC_SAVEAS_INFO_MESSAGE (//)
+The "%s" file already exists
+;
+LOC_SAVEAS_INFO_BUTTONS (//)
+Erase it|Cancel
+;
+LOC_SAVEAS_ERROR_TITLE (//)
+Write configuration error...
+;
+LOC_SAVEAS_ERROR_BUTTONS (//)
+Ok
+;

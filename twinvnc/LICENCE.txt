@@ -1,0 +1,9 @@
+Ce code source est fourni uniquement pour usage personnel et non commercial.
+Toute vente, sous-licence, ou distribution à titre onéreux – incluant l’intégration dans un produit vendu même modifié ou agrégé – est strictement interdite.
+La distribution gratuite est autorisée sous réserve de respecter la présente notice et d’indiquer l’auteur et la source d’origine.
+Pour un usage commercial ou une exception, contacter l’auteur pour accord écrit.
+
+This source code is provided strictly for personal and non-commercial use.
+Any sale, sublicense, or paid distribution—including as part of a sold or paid-for product, whether modified or unmodified—is strictly prohibited.
+Free distribution is allowed only if this notice is preserved and the original author and source are credited.
+For any commercial use or exceptions, please contact the author for explicit written permission.

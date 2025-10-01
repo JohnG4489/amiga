@@ -1,0 +1,403 @@
+; This Catalog Descriptor file (".cd")
+; Has been written using
+; ReCatIt Pro V1.00 (07.11.98) - By Fabio Rotondo.
+;
+LOC_CONNECTION_TITLE (//)
+Verbindung
+;
+LOC_CONNECTION_HOST (//)
+Gastgeber
+;
+LOC_CONNECTION_PASSWORD (//)
+Passwort
+;
+LOC_CONNECTION_VIEWONLY (//)
+_Nur Ansicht
+;
+LOC_CONNECTION_CONNECT (//)
+Verbinden
+;
+LOC_CONNECTION_OPTIONS (//)
+_Optionen
+;
+LOC_CONNECTION_QUIT (//)
+Verlassen
+;
+LOC_TOOLBAR_OPTIONS (//)
+Optionen
+;
+LOC_TOOLBAR_INFO (//)
+Informationen
+;
+LOC_TOOLBAR_FULLSCREEN (//)
+Vollbild
+;
+LOC_TOOLBAR_REFRESH (//)
+Neuaufbau Anzeige
+;
+LOC_TOOLBAR_TRANSFER (//)
+Dateitransfer
+;
+LOC_TOOLBAR_RECONNECT (//)
+Neuverbindung
+;
+LOC_TOOLBAR_ICONIFY (//)
+Ikonifizieren
+;
+LOC_TOOLBAR_QUIT (//)
+TwinVNC verlassen
+;
+LOC_TOOLBAR_ABOUT (//)
+Über TwinVNC
+;
+LOC_STATUS_TITLE (//)
+Verbindungsstatus...
+;
+LOC_STATUS_CANCEL (//)
+Abbruch
+;
+LOC_STATUS_TEXT_CONNECTION (//)
+Verbindung mit dem Gastgeber:
+;
+LOC_STATUS_TEXT_NEGOTIATION (//)
+Verhandlung des Protokolls
+;
+LOC_STATUS_TEXT_AUTHENTIFICATION (//)
+Kennwort
+;
+LOC_STATUS_TEXT_CLIENT_INIT (//)
+Authentifizierung
+;
+LOC_STATUS_TEXT_WAIT_SERVER_INIT (//)
+Warten auf Initialisierung des Servers
+;
+LOC_STATUS_TEXT_SEND_DISPLAY_PARAM (//)
+Sende Display Parameter
+;
+LOC_OPTIONS_TITLE (//)
+Optionen
+;
+LOC_OPTIONS_CODECS (//)
+Kodierungen
+;
+LOC_OPTIONS_MISC (//)
+Diverses
+;
+LOC_OPTIONS_DISPLAY (//)
+Anzeige
+;
+LOC_OPTIONS_CUSTOMIZE (//)
+Darstellung
+;
+LOC_OPTIONS_ABOUT (//)
+Über
+;
+LOC_OPTIONS_SAVEAS (//)
+Speichern als
+;
+LOC_OPTIONS_USE (//)
+Benutzen
+;
+LOC_OPTIONS_CANCEL (//)
+Abbrechen
+;
+LOC_OPTIONS_P1_REMOTEDISPLAY (//)
+Empfangsanzeige
+;
+LOC_OPTIONS_P1_COLORS (//)
+Farben
+;
+LOC_OPTIONS_P1_SCALE (//)
+Skalieren
+;
+LOC_OPTIONS_P1_ENCODERS (//)
+Kodierung
+;
+LOC_OPTIONS_P1_ISCOPYRECT (//)
+CopyRect benutzen
+;
+LOC_OPTIONS_P1_ISLOCALCURSOR (//)
+Lokalen Mauspfeil benutzen
+;
+LOC_OPTIONS_P1_ENCODERSPARAMETERS (//)
+Kodierungen einstellen
+;
+LOC_OPTIONS_P1_ISJPEG (//)
+Jpeg
+;
+LOC_OPTIONS_P1_QUALITY (//)
+Qualität
+;
+LOC_OPTIONS_P1_ISZLIB (//)
+ZLib
+;
+LOC_OPTIONS_P1_COMPRESSION (//)
+Kompression
+;
+LOC_OPTIONS_P1_ENCODER (//)
+Verschlüsselungen
+;
+LOC_OPTIONS_P2_STARTUP (//)
+Start
+;
+LOC_OPTIONS_P2_ISSHARED (//)
+Geteilter Zugriff
+;
+LOC_OPTIONS_P2_ISICONIFY (//)
+Ikonifizieren beim Starten
+;
+LOC_OPTIONS_P2_MOUSEKEYBOARD (//)
+Maus/Tastatur
+;
+LOC_OPTIONS_P2_ISVIEWONLY (//)
+Eingaben gesperrt (Nur Ansicht)
+;
+LOC_OPTIONS_P2_ISNOCLIPBOARD (//)
+Kein Clipboard
+;
+LOC_OPTIONS_P2_ISKBEMUL (//)
+Einige Tasten emulieren (z.B.: Begin/End/Page Down)
+;
+LOC_OPTIONS_P2_ISNOLAMIGAKEY (//)
+Linke Amiga Taste abschalten
+;
+LOC_OPTIONS_P2_ISREPORTMOUSE (//)
+Mausbewegungen über den Server mitteilen
+;
+LOC_OPTIONS_P2_SPECIAL (//)
+Speziell
+;
+LOC_OPTIONS_P2_ISFLAG (//)
+Keine Wartemarkierung (experimentell)
+;
+LOC_OPTIONS_P3_LOCALDISPLAY (//)
+Lokale Anzeige
+;
+LOC_OPTIONS_P3_DISPLAY (//)
+Anzeige
+;
+LOC_OPTIONS_P3_ISSHOWTOOLBAR (//)
+Toolbar anzeigen
+;
+LOC_OPTIONS_P3_ISSHOWCURSOR (//)
+Zeige Amiga Mauspfeil
+;
+LOC_OPTIONS_P3_VIEWPARAMETERS (//)
+Einstellungen Ansicht
+;
+LOC_OPTIONS_P3_VIEW (//)
+Darstellung:
+;
+LOC_OPTIONS_P3_ISOVERLAY (//)
+Overlay benutzen
+;
+LOC_OPTIONS_P3_OVERLAYTHRESHOLD (//)
+% (Schwelle)
+;
+LOC_OPTIONS_P3_SCREENPARAMETERS (//)
+Bildschirm-Einstellungen
+;
+LOC_OPTIONS_P3_TYPE (//)
+Typ
+;
+LOC_OPTIONS_P3_ISSHOWSCREENBAR (//)
+Zeige Bildschirm-Titel
+;
+LOC_OPTIONS_P3_SCREEN (//)
+Auflösung
+;
+LOC_OPTIONS_P3_SELECT (//)
+Wählen
+;
+LOC_OPTIONS_P4_GUI (//)
+Interface Grafik
+;
+LOC_OPTIONS_P4_STYLE (//)
+Darstellung
+;
+LOC_OPTIONS_P4_FONT (//)
+Schriftart
+;
+LOC_OPTIONS_P4_SELECT (//)
+Wählen
+;
+LOC_OPTIONS_P4_MISC (//)
+Diverses
+;
+LOC_OPTIONS_P4_ICON (//)
+Ikons
+;
+LOC_OPTIONS_P4_SEARCH (//)
+Suchen
+;
+LOC_OPTIONS_P5_AUTHORS (//)
+Autoren
+;
+LOC_OPTIONS_P5_COMPILATION (//)
+Umsetzungen
+;
+LOC_OPTIONS_P5_THANKS (//)
+Vielen Dank an...
+;
+LOC_OPTIONS_COLORS_SERVER (//)
+Wie Server
+;
+LOC_OPTIONS_COLORS_8 (//)
+8 Farben
+;
+LOC_OPTIONS_COLORS_64 (//)
+64 Farben
+;
+LOC_OPTIONS_COLORS_256 (//)
+256 Farben
+;
+LOC_OPTIONS_COLORS_65K (//)
+65536 Farben
+;
+LOC_OPTIONS_COLORS_16M (//)
+16M Farben
+;
+LOC_OPTIONS_DISPLAY_WINDOW (//)
+Fenster
+;
+LOC_OPTIONS_DISPLAY_FULLSCREEN (//)
+Vollbild
+;
+LOC_OPTIONS_VIEW_NORMAL (//)
+Normal
+;
+LOC_OPTIONS_VIEW_SCALED (//)
+Skaliert
+;
+LOC_OPTIONS_TYPE_AUTODETECT (//)
+Selbsterkennung der Auflösung
+;
+LOC_OPTIONS_TYPE_ASK (//)
+Bildschirmauflösung abfragen
+;
+LOC_OPTIONS_TYPE_USEMODEID (//)
+Eingestellte Auflösung verwenden
+;
+LOC_OPTIONS_STYLE_GADTOOLS (//)
+Gadtools (Wie OS3.1)
+;
+LOC_OPTIONS_STYLE_REACTION (//)
+Reaction (Wie OS3.5+)
+;
+LOC_OPTIONS_STYLE_MUI (//)
+Magic User Interface (MUI)
+;
+LOC_MSG_SOCKET_ERROR (//)
+Netzwerk Fehler
+;
+LOC_MSG_DISCONNECTED (//)
+Verbindung getrennt
+;
+LOC_MSG_PROTOCOL_NEGOTIATION_FAILED (//)
+Protokollverhandlung fehlgeschlagen
+;
+LOC_MSG_INVALID_AUTHENTIFICATION (//)
+Unzulässige Authentifizierung
+;
+LOC_MSG_AUTHENTIFICATION_FAILED (//)
+Authentifizierung fehlgeschlagen
+;
+LOC_MSG_AUTHENTIFICATION_TOOMANY (//)
+Zu viele Verbindungen
+;
+LOC_MSG_CORRUPTED_DATA (//)
+Defekte Daten empfangen
+;
+LOC_MSG_NOT_ENOUGH_MEMORY (//)
+Nicht genug Speicher
+;
+LOC_MSG_CONNECTION_ERROR (//)
+Unbekannter Wirtsserver
+;
+LOC_MSG_NO_BSDSOCKET_LIBRARY (//)
+Kein TCP/IP Stack
+;
+LOC_MSG_TITLE (//)
+Fehler
+;
+LOC_MSG_BAD_SCREEN_MODEID (//)
+Falsche Bildschirmauflösung
+;
+LOC_MSG_BAD_SCREEN_DEPTH (//)
+Bildschirm kann nicht geöffnet werden, falsche Farbtiefe
+;
+LOC_MSG_CANT_OPEN_SCREEN (//)
+Bildschirm kann nicht geöffnet werden
+;
+LOC_MSG_NOT_ENOUGH_VIDEO_MEMORY (//)
+Nicht genug Video Ram
+;
+LOC_INFO_IDENTITY (//)
+Server Identität
+;
+LOC_INFO_HOST (//)
+Wirt (Host)
+;
+LOC_INFO_IP (//)
+IP / Port
+;
+LOC_INFO_NAME (//)
+Name
+;
+LOC_INFO_PIXELFORMAT (//)
+Pixelformat des Servers
+;
+LOC_INFO_BITPERPIXEL (//)
+Bits pro Pixel
+;
+LOC_INFO_DEPTH (//)
+Tiefe
+;
+LOC_INFO_BIGENDIAN (//)
+Big Endian
+;
+LOC_INFO_TRUECOLOR (//)
+Echtfarben
+;
+LOC_INFO_CLOSE (//)
+Schliessen
+;
+LOC_INFO_TITLE (//)
+Informationen
+;
+LOC_INFO_RGBMAX (//)
+RGB Max
+;
+LOC_INFO_RGBSHIFT (//)
+RGB Shift
+;
+LOC_INFO_PROTOCOL (//)
+Protokoll
+;
+LOC_OPTIONS_TEST (//)
+Test
+;
+LOC_OPTIONS_P3_ISSMOOTH (//)
+Weich
+;
+LOC_OPTIONS_DISPLAY_NODISPLAY (//)
+Keine Anzeige
+;
+LOC_OPTIONS_SAVEAS_TITLE (//)
+Gegenwärtige Einstellung sichern
+;
+LOC_SAVEAS_INFO_TITLE (//)
+Info beim Speichern der Einstellungen...
+;
+LOC_SAVEAS_INFO_MESSAGE (//)
+Die Datei %s existiert bereits
+;
+LOC_SAVEAS_INFO_BUTTONS (//)
+Löschen|Abbrechen
+;
+LOC_SAVEAS_ERROR_TITLE (//)
+Fehler beim Speichern der Einstellungen...
+;
+LOC_SAVEAS_ERROR_BUTTONS (//)
+In Ordnung
+;
